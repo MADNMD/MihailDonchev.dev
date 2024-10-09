@@ -1,4 +1,6 @@
-import { Navigation } from "./components/Navigation/Navigation"
+import '../src/global.css';
+
+import { Navigation } from "./components/Navigation/Navigation";
 
 
 function App() {
