@@ -1,15 +1,15 @@
-import '../src/global.css';
+import './global.css';
 
 import { Navigation } from "./components/Navigation/Navigation";
 
 
 function App() {
 
-  return (
-    <div className="site">
-      <Navigation />
-    </div>
-  )
+    return (
+        <div className="">
+            <Navigation />
+        </div>
+    )
 }
 
 export default App
