@@ -16,6 +16,10 @@ module.exports = {
                 lg: "976px",
                 xl: "1440px",
             },
+            colors: {
+                'navigation-bg': '#181818',
+                'navigation-text': '#4F617D',
+            }
         },
     },
     plugins: [],
