@@ -7,7 +7,7 @@ import { Footer } from './components/Footer/Footer';
 function App() {
     return (
         <div className='flex'>
-            <div className="flex flex-col justify-between bg-navigation-bg w-46 h-screen">
+            <div className="flex flex-col justify-between bg-navigation-bg w-48 h-screen">
                 <Logo />
                 <Navigation />
                 <Footer />
