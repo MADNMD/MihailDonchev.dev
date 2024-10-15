@@ -20,6 +20,11 @@
     transform: scaleX(1);
 }
 
+.header-font {
+    font-family: 'Cutive', serif;
+    color: #ffffff;
+}
+
 .font-custom-1 {
     font-family: 'Permanent Marker', cursive;
 }
