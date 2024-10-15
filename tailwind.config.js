@@ -19,6 +19,7 @@ module.exports = {
             colors: {
                 'navigation-bg': '#181818',
                 'navigation-text': '#4F617D',
+                'body-bg': '#1D1D1D'
             }
         },
     },
