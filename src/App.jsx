@@ -9,13 +9,13 @@ function App() {
     return (
         <div className='flex'>
             <div className='flex'>
-                <div className="flex flex-col justify-between bg-navigation-bg w-48 h-screen">
+                <div className="flex flex-col justify-between fixed bg-navigation-bg w-48 h-screen">
                     <Logo />
                     <Navigation />
                     <Footer />
                 </div>
             </div>
-            <div className='bg-body-bg w-screen'>
+            <div className='bg-body-bg w-full ml-48'>
                 <Projects />
             </div>
         </div>
