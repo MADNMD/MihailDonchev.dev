@@ -1,5 +1,6 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
 
 export const Projects = () => {
     return (
@@ -7,7 +8,10 @@ export const Projects = () => {
             <h1 className='mt-12 text-4xl font-bold navigation-text header-font'>My Projects</h1>
             <div className='grid grid-cols-2 gap-4 mt-8 mr-4 ml-4'>
 
-                <div className='bg-gray-700 shadow-lg rounded-lg p-4 flex flex-col'>
+                <motion.div className='bg-gray-700 shadow-lg rounded-lg p-4 flex flex-col'
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.2, duration: 0.5 }}>
                     <div>
                         <h5 className='text-xl font-bold text-center mt-2 mb-4 text-white'>VANIMI online supermarket</h5>
                         <img src="/vanimi-supermaket.png" alt="Online supermarket" className='w-full h-4/5 rounded-lg ' />
@@ -59,10 +63,12 @@ export const Projects = () => {
                         ease-in-out
                         hover:bg-hover'>Source code</Link>
                     </div>
-                </div>
+                </motion.div>
 
-
-                <div className='bg-gray-700 shadow-lg rounded-lg p-4 flex flex-col'>
+                <motion.div className='bg-gray-700 shadow-lg rounded-lg p-4 flex flex-col'
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.2, duration: 0.5 }}>
                     <div>
                         <h5 className='text-xl font-bold text-center mt-2 mb-4 text-white'>Family tree</h5>
                         <img src="/family-tree.png" alt="Online supermarket" className='w-full h-4/5 rounded-lg ' />
@@ -115,13 +121,16 @@ export const Projects = () => {
                         hover:bg-hover'
                                 onClick={e => e.preventDefault()}>Source code</Link>
                             <span className="absolute left-1/2 transform -translate-x-1/2 bottom-full mb-2 w-max p-2 bg-gray-700 text-white text-sm rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                            Private repository
+                                Private repository
                             </span>
                         </div>
                     </div>
-                </div>
+                </motion.div>
 
-                <div className='bg-gray-700 shadow-lg rounded-lg p-4 flex flex-col'>
+                <motion.div className='bg-gray-700 shadow-lg rounded-lg p-4 flex flex-col'
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.2, duration: 0.5 }}>
                     <div>
                         <h5 className='text-xl font-bold text-center mt-2 mb-4 text-white'>Евро проекти</h5>
                         <img src="/euro-projects.png" alt="Online supermarket" className='w-full h-4/5 rounded-lg ' />
@@ -173,9 +182,12 @@ export const Projects = () => {
                         hover:bg-hover'
                             onClick={e => e.preventDefault()}>Source code</Link>
                     </div>
-                </div>
+                </motion.div>
 
-                <div className='bg-gray-700 shadow-lg rounded-lg p-4 flex flex-col'>
+                <motion.div className='bg-gray-700 shadow-lg rounded-lg p-4 flex flex-col'
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.2, duration: 0.5 }}>
                     <div>
                         <h5 className='text-xl font-bold text-center mt-2 mb-4 text-white'>Shared trip</h5>
                         <img src="/shared-trip.png" alt="Online supermarket" className='w-full h-4/5 rounded-lg ' />
@@ -225,9 +237,12 @@ export const Projects = () => {
                         ease-in-out
                         hover:bg-hover'>Source code</Link>
                     </div>
-                </div>
+                </motion.div>
 
-                <div className='bg-gray-700 shadow-lg rounded-lg p-4 flex flex-col'>
+                <motion.div className='bg-gray-700 shadow-lg rounded-lg p-4 flex flex-col'
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.2, duration: 0.5 }}>
                     <div>
                         <h5 className='text-xl font-bold text-center mt-2 mb-4 text-white'>Crossfit workout</h5>
                         <img src="/crossfit.png" alt="Online supermarket" className='w-full h-4/5 rounded-lg ' />
@@ -276,9 +291,12 @@ export const Projects = () => {
                         ease-in-out
                         hover:bg-hover'>Source code</Link>
                     </div>
-                </div>
+                </motion.div>
 
-                <div className='bg-gray-700 shadow-lg rounded-lg p-4 flex flex-col'>
+                <motion.div className='bg-gray-700 shadow-lg rounded-lg p-4 flex flex-col'
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.2, duration: 0.5 }}>
                     <div>
                         <h5 className='text-xl font-bold text-center mt-2 mb-4 text-white'>Date and clock</h5>
                         <img src="/clock.png" alt="Online supermarket" className='w-full h-4/5 rounded-lg ' />
@@ -325,9 +343,12 @@ export const Projects = () => {
                         ease-in-out
                         hover:bg-hover'>Source code</Link>
                     </div>
-                </div>
+                </motion.div>
 
-                <div className='bg-gray-700 shadow-lg rounded-lg p-4 flex flex-col'>
+                <motion.div className='bg-gray-700 shadow-lg rounded-lg p-4 flex flex-col'
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.2, duration: 0.5 }}>
                     <div>
                         <h5 className='text-xl font-bold text-center mt-2 mb-4 text-white'>Generate quotes</h5>
                         <img src="/generate-quotes.png" alt="Online supermarket" className='w-full h-4/5 rounded-lg ' />
@@ -373,9 +394,12 @@ export const Projects = () => {
                         ease-in-out
                         hover:bg-hover'>Source code</Link>
                     </div>
-                </div>
+                </motion.div>
 
-                <div className='bg-gray-700 shadow-lg rounded-lg p-4 flex flex-col'>
+                <motion.div className='bg-gray-700 shadow-lg rounded-lg p-4 flex flex-col'
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.2, duration: 0.5 }}>
                     <div>
                         <h5 className='text-xl font-bold text-center mt-2 mb-4 text-white'>To Do List</h5>
                         <img src="/todos.png" alt="Online supermarket" className='w-full h-4/5 rounded-lg ' />
@@ -422,9 +446,12 @@ export const Projects = () => {
                         ease-in-out
                         hover:bg-hover'>Source code</Link>
                     </div>
-                </div>
+                </motion.div>
 
-                <div className='bg-gray-700 shadow-lg rounded-lg p-4 flex flex-col'>
+                <motion.div className='bg-gray-700 shadow-lg rounded-lg p-4 flex flex-col'
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.2, duration: 0.5 }}>
                     <div>
                         <h5 className='text-xl font-bold text-center mt-2 mb-4 text-white'>Backgourn Colors</h5>
                         <img src="/bg-colors.png" alt="Online supermarket" className='w-full h-4/5 rounded-lg ' />
@@ -471,7 +498,7 @@ export const Projects = () => {
                         ease-in-out
                         hover:bg-hover'>Source code</Link>
                     </div>
-                </div>
+                </motion.div>
             </div>
         </div>
     )
