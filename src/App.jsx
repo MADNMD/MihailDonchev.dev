@@ -1,9 +1,11 @@
 import './global.css';
+import { Routes, Route } from 'react-router-dom';
 
 import { Navigation } from "./components/Navigation/Navigation";
 import { Logo } from './components/Logo/Logo';
 import { Footer } from './components/Footer/Footer';
 import { Projects } from './components/Projects/Projects';
+import { Certificates } from './components/Certificates/Certificates';
 
 function App() {
     return (
@@ -16,7 +18,10 @@ function App() {
                 </div>
             </div>
             <div className='bg-body-bg w-full ml-48'>
-                <Projects />
+                <Routes>
+                    <Route path='/projects' element={<Projects />} />
+                    <Route path='/certificates' element={<Certificates />} />
+                </Routes>
             </div>
         </div>
     )
