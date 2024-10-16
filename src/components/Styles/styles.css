@@ -25,6 +25,10 @@
     color: #ffffff;
 }
 
+.button-font {
+    font-family: 'Playfair Display', serif;
+}
+
 .font-custom-1 {
     font-family: 'Permanent Marker', cursive;
 }
