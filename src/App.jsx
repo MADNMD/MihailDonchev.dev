@@ -6,6 +6,7 @@ import { Logo } from './components/Logo/Logo';
 import { Footer } from './components/Footer/Footer';
 import { Projects } from './components/Projects/Projects';
 import { Certificates } from './components/Certificates/Certificates';
+import { Contacts } from './components/Contacts/Contacts';
 
 function App() {
     return (
@@ -21,6 +22,7 @@ function App() {
                 <Routes>
                     <Route path='/projects' element={<Projects />} />
                     <Route path='/certificates' element={<Certificates />} />
+                    <Route path='/contacts' element={<Contacts />} />
                 </Routes>
             </div>
         </div>
