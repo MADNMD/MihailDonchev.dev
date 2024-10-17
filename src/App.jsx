@@ -18,7 +18,7 @@ function App() {
                     <Footer />
                 </div>
             </div>
-            <div className='bg-body-bg w-full ml-48'>
+            <div className='bg-body-bg w-full min-h-screen ml-48'>
                 <Routes>
                     <Route path='/projects' element={<Projects />} />
                     <Route path='/certificates' element={<Certificates />} />
