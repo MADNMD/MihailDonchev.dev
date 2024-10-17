@@ -10,6 +10,7 @@ import { Contacts } from './components/Contacts/Contacts';
 
 function App() {
     return (
+
         <div className='flex'>
             <div className='flex'>
                 <div className="flex flex-col justify-between fixed bg-navigation-bg w-48 h-screen">
