@@ -4,14 +4,17 @@ import { motion } from 'framer-motion';
 
 export const Projects = () => {
     return (
-        <div className='flex flex-col items-center justify-center'>
-            <h1 className='mt-12 text-4xl font-bold navigation-text header-font'>My Projects</h1>
+        <motion.div className='flex flex-col items-center justify-center'
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.2, duration: 0.5 }}>
+            <motion.h1 className='mt-12 text-4xl font-bold navigation-text header-font'
+                initial={{ opacity: 0, y: -50 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 1 }}>My Projects</motion.h1>
             <div className='grid grid-cols-2 gap-4 mt-8 mr-4 ml-4'>
 
-                <motion.div className='bg-gray-700 shadow-lg rounded-lg p-4 flex flex-col'
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 0.2, duration: 0.5 }}>
+                <div className='bg-gray-700 shadow-lg rounded-lg p-4 flex flex-col'>
                     <div>
                         <h5 className='text-xl font-bold text-center mt-2 mb-4 text-white'>VANIMI online supermarket</h5>
                         <img src="/vanimi-supermaket.png" alt="Online supermarket" className='w-full h-4/5 rounded-lg ' />
@@ -63,12 +66,9 @@ export const Projects = () => {
                         ease-in-out
                         hover:bg-hover'>Source code</Link>
                     </div>
-                </motion.div>
+                </div>
 
-                <motion.div className='bg-gray-700 shadow-lg rounded-lg p-4 flex flex-col'
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 0.2, duration: 0.5 }}>
+                <div className='bg-gray-700 shadow-lg rounded-lg p-4 flex flex-col'>
                     <div>
                         <h5 className='text-xl font-bold text-center mt-2 mb-4 text-white'>Family tree</h5>
                         <img src="/family-tree.png" alt="Online supermarket" className='w-full h-4/5 rounded-lg ' />
@@ -125,12 +125,9 @@ export const Projects = () => {
                             </span>
                         </div>
                     </div>
-                </motion.div>
+                </div>
 
-                <motion.div className='bg-gray-700 shadow-lg rounded-lg p-4 flex flex-col'
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 0.2, duration: 0.5 }}>
+                <div className='bg-gray-700 shadow-lg rounded-lg p-4 flex flex-col'>
                     <div>
                         <h5 className='text-xl font-bold text-center mt-2 mb-4 text-white'>Евро проекти</h5>
                         <img src="/euro-projects.png" alt="Online supermarket" className='w-full h-4/5 rounded-lg ' />
@@ -182,12 +179,9 @@ export const Projects = () => {
                         hover:bg-hover'
                             onClick={e => e.preventDefault()}>Source code</Link>
                     </div>
-                </motion.div>
+                </div>
 
-                <motion.div className='bg-gray-700 shadow-lg rounded-lg p-4 flex flex-col'
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 0.2, duration: 0.5 }}>
+                <div className='bg-gray-700 shadow-lg rounded-lg p-4 flex flex-col'>
                     <div>
                         <h5 className='text-xl font-bold text-center mt-2 mb-4 text-white'>Shared trip</h5>
                         <img src="/shared-trip.png" alt="Online supermarket" className='w-full h-4/5 rounded-lg ' />
@@ -237,12 +231,9 @@ export const Projects = () => {
                         ease-in-out
                         hover:bg-hover'>Source code</Link>
                     </div>
-                </motion.div>
+                </div>
 
-                <motion.div className='bg-gray-700 shadow-lg rounded-lg p-4 flex flex-col'
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 0.2, duration: 0.5 }}>
+                <div className='bg-gray-700 shadow-lg rounded-lg p-4 flex flex-col'>
                     <div>
                         <h5 className='text-xl font-bold text-center mt-2 mb-4 text-white'>Crossfit workout</h5>
                         <img src="/crossfit.png" alt="Online supermarket" className='w-full h-4/5 rounded-lg ' />
@@ -291,12 +282,9 @@ export const Projects = () => {
                         ease-in-out
                         hover:bg-hover'>Source code</Link>
                     </div>
-                </motion.div>
+                </div>
 
-                <motion.div className='bg-gray-700 shadow-lg rounded-lg p-4 flex flex-col'
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 0.2, duration: 0.5 }}>
+                <div className='bg-gray-700 shadow-lg rounded-lg p-4 flex flex-col'>
                     <div>
                         <h5 className='text-xl font-bold text-center mt-2 mb-4 text-white'>Date and clock</h5>
                         <img src="/clock.png" alt="Online supermarket" className='w-full h-4/5 rounded-lg ' />
@@ -343,12 +331,9 @@ export const Projects = () => {
                         ease-in-out
                         hover:bg-hover'>Source code</Link>
                     </div>
-                </motion.div>
+                </div>
 
-                <motion.div className='bg-gray-700 shadow-lg rounded-lg p-4 flex flex-col'
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 0.2, duration: 0.5 }}>
+                <div className='bg-gray-700 shadow-lg rounded-lg p-4 flex flex-col'>
                     <div>
                         <h5 className='text-xl font-bold text-center mt-2 mb-4 text-white'>Generate quotes</h5>
                         <img src="/generate-quotes.png" alt="Online supermarket" className='w-full h-4/5 rounded-lg ' />
@@ -394,12 +379,9 @@ export const Projects = () => {
                         ease-in-out
                         hover:bg-hover'>Source code</Link>
                     </div>
-                </motion.div>
+                </div>
 
-                <motion.div className='bg-gray-700 shadow-lg rounded-lg p-4 flex flex-col'
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 0.2, duration: 0.5 }}>
+                <div className='bg-gray-700 shadow-lg rounded-lg p-4 flex flex-col'>
                     <div>
                         <h5 className='text-xl font-bold text-center mt-2 mb-4 text-white'>To Do List</h5>
                         <img src="/todos.png" alt="Online supermarket" className='w-full h-4/5 rounded-lg ' />
@@ -446,12 +428,9 @@ export const Projects = () => {
                         ease-in-out
                         hover:bg-hover'>Source code</Link>
                     </div>
-                </motion.div>
+                </div>
 
-                <motion.div className='bg-gray-700 shadow-lg rounded-lg p-4 flex flex-col'
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 0.2, duration: 0.5 }}>
+                <div className='bg-gray-700 shadow-lg rounded-lg p-4 flex flex-col'>
                     <div>
                         <h5 className='text-xl font-bold text-center mt-2 mb-4 text-white'>Backgourn Colors</h5>
                         <img src="/bg-colors.png" alt="Online supermarket" className='w-full h-4/5 rounded-lg ' />
@@ -498,8 +477,8 @@ export const Projects = () => {
                         ease-in-out
                         hover:bg-hover'>Source code</Link>
                     </div>
-                </motion.div>
+                </div>
             </div>
-        </div>
+        </motion.div>
     )
 }
