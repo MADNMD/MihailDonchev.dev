@@ -16,7 +16,7 @@ export const Navigation = () => {
                     <Link to={"/certificates"} className="text-lg text-decoration-none text-navigation-text py-2 px-4" >CERTIFICATES </Link>
                 </li>
                 <li className='text-center'>
-                    <Link to={"/contacts"} className="text-lg text-decoration-none text-navigation-text py-2 px-4" >CONTACTS </Link>
+                    <Link to={"/contacts"} className="text-lg text-decoration-none text-navigation-text py-2 px-4" >CONTACT МЕ </Link>
                 </li>
             </ul>
         </nav>
