@@ -222,7 +222,7 @@ export const Certificates = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.2, duration: 0.5 }}>
                     <div>
-                        <h5 className='text-xl font-bold text-center mt-2 mb-4 text-white'>Programing Fundamentals with JavaScript</h5>
+                        <h5 className='text-xl font-bold text-center mt-2 mb-4 text-white'>Programing Fundamentals with JS</h5>
                         <img src="/fundamentals.jpg" alt="Online supermarket" className='w-full h-max rounded-lg ' />
                     </div>
                     <div className='flex-grow'>
