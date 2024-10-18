@@ -48,7 +48,7 @@ export const About = () => {
                             Hello! I’m Mihail Donchev, a passionate junior web developer specializing in JavaScript. With a strong foundation in modern web technologies like ReactJS, HTML, CSS, Tailwind, Node.js, and Express.js, I have successfully built and contributed to various web applications and interfaces. My journey in web development began with comprehensive courses at SoftUni, where I honed my skills and applied them in real-world projects.
                         </motion.span>
                     </p>
-                    <p className='text-white text-lg mt-2 mb-2'>
+                    <p className='text-white  text-lg mt-2 mb-2'>
                         <motion.span
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
@@ -56,7 +56,7 @@ export const About = () => {
                             I hold a Bachelor’s degree in Civil and Corporate Security from New Bulgarian University and have furthered my technical expertise through continuous learning and hands-on experience. My technical skill set includes proficiency in databases such as MySQL and MongoDB, as well as testing frameworks like Mocha and Chai.
                         </motion.span>
                     </p>
-                    <p className='text-white text-lg'>
+                    <p className='text-white  text-lg'>
                         <motion.span
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
