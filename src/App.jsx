@@ -8,10 +8,11 @@ import { Projects } from './components/Projects/Projects';
 import { Certificates } from './components/Certificates/Certificates';
 import { Contacts } from './components/Contacts/Contacts';
 import { About } from './components/About/About';
+import { ScrollTop } from './components/ScrollTop/ScrollTop';
 
 function App() {
-    return (
 
+    return (
         <div className='flex'>
             <div className='flex'>
                 <div className="flex flex-col justify-between fixed bg-navigation-bg w-48 h-screen">
@@ -20,6 +21,7 @@ function App() {
                     <Footer />
                 </div>
             </div>
+            <ScrollTop />
             <div className='bg-body-bg w-full min-h-screen ml-48'>
                 <Routes>
                     <Route path='/about' element={<About />} />
