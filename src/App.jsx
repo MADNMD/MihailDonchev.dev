@@ -7,6 +7,7 @@ import { Footer } from './components/Footer/Footer';
 import { Projects } from './components/Projects/Projects';
 import { Certificates } from './components/Certificates/Certificates';
 import { Contacts } from './components/Contacts/Contacts';
+import { About } from './components/About/About';
 
 function App() {
     return (
@@ -21,6 +22,7 @@ function App() {
             </div>
             <div className='bg-body-bg w-full min-h-screen ml-48'>
                 <Routes>
+                    <Route path='/about' element={<About />} />
                     <Route path='/projects' element={<Projects />} />
                     <Route path='/certificates' element={<Certificates />} />
                     <Route path='/contacts' element={<Contacts />} />
