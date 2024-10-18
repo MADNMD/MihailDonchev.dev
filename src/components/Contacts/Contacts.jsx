@@ -6,6 +6,9 @@ import { useFormik } from 'formik';
 import { ToastContainer, toast } from 'react-toastify';
 import "react-toastify/dist/ReactToastify.css";
 import ClipLoader from 'react-spinners/ClipLoader';
+import { Link } from 'react-router-dom';
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { ImFolderDownload } from "react-icons/im";
 
 
 export const Contacts = () => {
@@ -38,7 +41,7 @@ export const Contacts = () => {
         message: '',
     };
 
-    const validate = (values) => {};
+    const validate = (values) => { };
 
     const onSubmit = async (values, { resetForm }) => {
         await sendEmail(values);
@@ -169,6 +172,11 @@ export const Contacts = () => {
                             </Button>
                         </Box>
                     </form>
+                    <div className='flex items-center justify-center gap-6'>
+                        <Link to={'https://github.com/MADNMD'} target='_blank'><FaGithub className="text-form-logo-text text-2xl" /></Link>
+                        <Link to={'https://www.linkedin.com/in/mihail-donchev-6a400025a/'} target='_blank'><FaLinkedin className="text-form-logo-text text-2xl" /></Link>
+                        <a href='/MihailDonchevResume.pdf' download target='_blank'><ImFolderDownload className="text-form-logo-text text-2xl" title="Download CV" /></a>
+                    </div>
                 </motion.div>
             </div>
         </motion.div>
