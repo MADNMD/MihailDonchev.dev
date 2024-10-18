@@ -20,7 +20,8 @@ module.exports = {
                 'navigation-bg': '#181818',
                 'navigation-text': '#4F617D',
                 'body-bg': '#1D1D1D',
-                "hover": '#6c757d'
+                "hover": '#6c757d',
+                'form-logo-text': '#ffffff',
             }
         },
     },
