@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import { TextField, Button, Box } from '@mui/material';
 import { motion } from 'framer-motion';
 import emailjs from '@emailjs/browser';
@@ -9,11 +9,15 @@ import ClipLoader from 'react-spinners/ClipLoader';
 import { Link } from 'react-router-dom';
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { ImFolderDownload } from "react-icons/im";
+import { AppContext } from "../../contexts/AppContext";
 
 
 export const Contacts = () => {
 
     const [loading, setLoading] = useState(false);
+    const { text } = useContext(AppContext);
+
+    const btnContent = text('contacts.button');
 
     const sendEmail = async (values) => {
 
@@ -63,7 +67,7 @@ export const Contacts = () => {
             <motion.h1 className='mt-12 text-4xl font-bold navigation-text header-font'
                 initial={{ opacity: 0, y: -50 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 1 }}>Contact Me</motion.h1>
+                transition={{ duration: 1 }}>{text('contacts.header')}</motion.h1>
             <div className='flex flex-row mt-8 gap-10 bg-gray-700 shadow-lg rounded-lg p-4'>
                 <motion.div className='ml-12'
                     initial={{ x: -100, opacity: 0 }}
@@ -86,7 +90,7 @@ export const Contacts = () => {
                             }}
                         >
                             <TextField
-                                label="Your Name"
+                                label={text('contacts.name')}
                                 variant="outlined"
                                 name='name'
                                 fullWidth
@@ -116,7 +120,7 @@ export const Contacts = () => {
                                 }}
                             />
                             <TextField
-                                label="Email"
+                                label={text('contacts.email')}
                                 variant="outlined"
                                 name='email'
                                 type="email"
@@ -135,7 +139,7 @@ export const Contacts = () => {
                                 }}
                             />
                             <TextField
-                                label="Message"
+                                label={text('contacts.message')}
                                 variant="outlined"
                                 name='message'
                                 multiline
@@ -168,14 +172,14 @@ export const Contacts = () => {
                                 type="submit"
                                 disabled={loading}
                             >{loading ? <ClipLoader size={20} color={"#ffffff"}
-                                loading={loading} /> : 'Send Message'}
+                                loading={loading} /> : btnContent}
                             </Button>
                         </Box>
                     </form>
                     <div className='flex items-center justify-center gap-6'>
                         <Link to={'https://github.com/MADNMD'} target='_blank'><FaGithub className="text-form-logo-text text-2xl" /></Link>
                         <Link to={'https://www.linkedin.com/in/mihail-donchev-6a400025a/'} target='_blank'><FaLinkedin className="text-form-logo-text text-2xl" /></Link>
-                        <a href='/MihailDonchevResume.pdf' download target='_blank'><ImFolderDownload className="text-form-logo-text text-2xl" title="Download CV" /></a>
+                        <a href='/MihailDonchevResume.pdf' download target='_blank'><ImFolderDownload className="text-form-logo-text text-2xl" title={text('contacts.download')} /></a>
                     </div>
                 </motion.div>
             </div>
