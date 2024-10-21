@@ -4,5 +4,139 @@
         "projects": "PROJECTS",
         "certificates": "CERTIFICATES",
         "contacts": "CONTACT МЕ"
+    },
+    "contacts": {
+        "header": "Contact me",
+        "name": "Your name",
+        "email": "Email",
+        "message": "Message",
+        "button": "Send message",
+        "download": "Download CV"
+    },
+    "about": {
+        "header": "About me",
+        "section1": "Hello! I’m Mihail Donchev, a passionate junior web developer specializing in JavaScript. With a strong foundation in modern web technologies like ReactJS, HTML, CSS, Tailwind, Node.js, and Express.js, I have successfully built and contributed to various web applications and interfaces. My journey in web development began with comprehensive courses at SoftUni, where I honed my skills and applied them in real-world projects.",
+        "section2": "I hold a Bachelor’s degree in Civil and Corporate Security from New Bulgarian University and have furthered my technical expertise through continuous learning and hands-on experience. My technical skill set includes proficiency in databases such as MySQL and MongoDB, as well as testing frameworks like Mocha and Chai.",
+        "section3": "In addition to my technical abilities, I am highly motivated, creative, and responsible. I thrive in collaborative environments and am always eager to tackle new challenges. My personal projects, such as the Vanimi-Supermarket eCommerce platform and the Family Tree visualization tool, showcase my ability to deliver functional and user-friendly solutions.",
+        "header2": "Skills"
+    },
+    "projects": {
+        "header": "My projects",
+        "vanimi": {
+            "description": "Description",
+            "descriptionContent": "VANIMI online supermarket is a website that offers a variety of food and household goods that you can order and get delivered directly to your door.",
+            "catalog": "Product catalog",
+            "catalogContent": "A variety of categories such as fruits and vegetables, meat and fish, dairy products, beverages, cleaning products and more.",
+            "search": "Search engine",
+            "searchContent": "Easily find products by keywords, brands, prices and other criteria.",
+            "user": "User profile",
+            "userContent": "Ability to create an account, save favorite products and view previous orders.",
+            "discounts": "Promotions and discounts",
+            "discountsContent": "Special offers and discount coupons.",
+            "delivery": "Delivery",
+            "deliveryContent": "Options to choose the time and place of delivery."
+        },
+        "familyTree": {
+            "description": "Description",
+            "descriptionContent": "Working with a team of 5-6 people, we developed an innovative family tree site that allows users to easily track and document their family history. The site offers both free and paid versions to meet a variety of needs and preferences.",
+            "freeVersion": "Free version",
+            "freeVersionContent": "Possibility to create and download the family tree in PDF format.",
+            "paidVersion": "Paid version",
+            "padiVersionContent": "Additional features such as advanced personalization options, adding photos and documents, and sharing the tree with other users.",
+            "user": "Login and registration",
+            "userContent": "Secure registration and login system with both Google and Facebook",
+            "multilingual": "Multilingual",
+            "multiContent": "Support for two languages (English and Bulgarian) to make the site accessible to a wider audience."
+        },
+        "euroProjects": {
+            "description": "Description",
+            "descriptionContent": "The site offers professional project development and management services for farmers, business people and interested rural organisations. We help our clients to obtain funding under various programs.",
+            "investments": "Project investments",
+            "investmentsContent": "Preparation of the farm development project and rooftop photovoltaics.",
+            "marketing": "Marketing and processing of agricultural produce",
+            "marketingContent": "Produce marketing projects.",
+            "activities": "Non-agricultural activities",
+            "activitiesContent": "Projects for doctor's surgeries, car washes, car service stations and rooftop photovoltaic plants.",
+            "innovation": "Innovation Task Forces",
+            "innovationContent": "Preparation of rural innovation projects.",
+            "other": "Other projects",
+            "otherContent": "Consultancy and project preparation for various operational programmes."
+        },
+        "sharedTrip": {
+            "description": "Description",
+            "descriptionContent": "'Shared trip' makes it easy and convenient to find or create a shared trip.",
+            "user": "Register and Sign In",
+            "userContent": " Create an account and sign in quickly and easily.",
+            "search": "Create and search listings",
+            "searchContent": "ost your own travel listings or find relevant listings from other users.",
+            "comment": "Comments and Reviews",
+            "commentContent": "Leave comments and ratings about the trips to help the community choose the best options."
+        },
+        "crossFit": {
+            "description": "Description",
+            "descriptionContent": "Here is where you can share or find the most diverse workouts.",
+            "user": "Sign up and login",
+            "userContent": "Easily create an account and start training.",
+            "share": "Share and discover workouts",
+            "shareContent": "Post your own workouts or find inspiration from other users.",
+            "like": "You like and appreciate workouts",
+            "likeContent": "Express your approval and help others discover the best workouts."
+        },
+        "dateAndClock": {
+            "description": "Description",
+            "descriptionContent": "This project is a web application that displays the current time and date in real time. The clock is designed with a clean and intuitive interface that includes.",
+            "currentTime": "Current Time",
+            "currentTimeContent": "Hours, minutes and seconds formatted in 12-hour format with AM/PM indication.",
+            "currentDate": "Current date",
+            "currentDateContent": "Day, month and year presented in an easy-to-read format.",
+            "responsive": "Responsive design",
+            "responsiveContent": "The interface is optimized for different devices and screens thanks to the CSS styles used."
+        },
+        "quotes": {
+            "description": "Description",
+            "descriptionContent": "This generator randomly pulls of quotes.",
+            "quotes": "Variety of quotes",
+            "quotesContent": "Every time you press the button, a new quote is displayed, chosen at random from a predefined list.",
+            "interface": "Interactive interface",
+            "interfaceContent": "Users can easily interact with the app through an intuitive button to generate a new quote."
+        },
+        "toDo": {
+            "description": "Description",
+            "descriptionContent": "Make a list of your daily tasks that you have to do",
+            "task": "Task management",
+            "taskContent": "Users can easily add new tasks and delete existing ones to keep their list up-to-date.",
+            "interactive": "Interactive interface",
+            "interactiveContent": "The application offers an intuitive and easy-to-use task management interface.",
+            "responsive": "Responsive design",
+            "responsiveContent": "The interface is optimized for different devices and screens thanks to the CSS styles used."
+        },
+        "colors": {
+            "description": "Description",
+            "descriptionContent": "Change the background color after clicking the button.",
+            "changeColor": "Change the background colour",
+            "changeColorContent": "Each time you press the button, the background colour of the screen changes randomly.",
+            "interface" : "Interactive Interface",
+            "interfaceContent": "Users can easily interact with the app through an intuitive color change button.",
+            "responsive": "Responsive design",
+            "responsiveContent": "The interface is optimized for different devices and screens thanks to the CSS styles used."
+        },
+        "btn": {
+            "visit": "Visit website",
+            "code": "Source code",
+            "private": "Private repository"
+        },
+        "usedTechnologies": "Technologies used"
+    },
+    "certificates": {
+        "mysql": "One of the most widely used database management systems in the development of modern applications. Relational databases, basic functionalities such as working with tables, grouping functions, transactions, procedures, etc.",
+        "react": "Knowledge and practical skills for SPA development using ReactJS technology. JSX syntax working with requests and promises, splitting an application into components, form routing and validation, different ways to style components using techniques like CSS modules and Styled Components. React Hooks, Context API.",
+        "htmlCss": "In this course, I learned the basics of HTML5 and CSS3 web technologies. I learned the basic HTML tags, paragraphs, lists, tables, forms, controls and semantic HTML tags. Emphasis is on basic CSS selectors and styles, working with classes, presentation rules, positioning and layout rules in CSS. The course emphasizes hands-on exercises with HTML and CSS, working on real web page development projects, implementation of site fragments and creating complete modern websites with a good look, modern structure and mobile support.",
+        "angular": "The 'Angular' course provides knowledge and practical skills for building client applications (Single Page Applications) with Angular technology, a working framework created by Google and one of the most popular at the moment. You will learn what TypeScript is, basic syntax and concepts, and what more it offers over JavaScript, such as conveniences for development in the browser and on mobile platforms. Learn what Single Page Application (SPA) is, architectural patterns for SPA applications, components, directives and their implementation in Angular. Views and templates for data visualization (templates), models, components, data binding, working with many views, observables, routing, extracting data from a REST service and dependency injection are studied. ",
+        "jsBackEnd": "In the 'JS Back-End' course, you will learn how to develop server-side JavaScript applications on the Node.js platform using Express.js as a framework. Also during the training you will learn how to create a server with Node.js, learn the server-client architecture and how to make easy and fast data-driven web applications with Node.js, Express.js and MongoDB using modern techniques and tools. One of the most popular non-relational databases, MongoDB, will be covered, along with the Mongoose library for retrieving data from it. At the end of the course, a complete REST API will be built from scratch using Express.js and MongoDB.",
+        "jsApp": "In the course 'JS Applications' you will learn what HTTP requests are and how to use them. You will learn about REST Services, what a Baas (backend as a service) is and how to work with it, what asynchronous code means (Promises, using async/await), what Templating and Routing are. During the course, you will create a Single Page Application, using the techniques learned from previous lectures, on which you will be assessed. You will understand what is the architecture of an application and how to properly structure your applications.",
+        "jsAdvanced": "In the 'JS Advanced' course, you will get a deep knowledge of the JavaScript language, such as the basics of syntax, working with arrays, matrices, objects, classes and writing functions. You will study more complex concepts like function context, explicit binding, event loop. The course will develop your algorithmic thinking. After successful completion of this course, you will be able to work with the DOM tree, do manipulations on it and work with events. Functional and OOP approaches to JavaScript programming will be explored, studying concepts such as inheritance, object composition, and prototype chaining.",
+        "fundamentals":"The course 'Programming Fundamentals' examines fundamental concepts in programming, which are the basis for effective and quality training in the professional modules. Learners build on the knowledge gained in the Programming Basics course and begin to use more complex programming concepts and structures such as: arrays, objects and classes. Additional technologies needed by every software developer are studied, such as HTML and CSS, HTTP, bit operations, and more. The fundamentals of web development are covered, as well as one of the most common technologies and tools with which the course successfully builds students' ideas about the upcoming professional modules and the knowledge they will gain from them to become successful software developers.",
+        "basic": "The 'Programming Basics' course provides the initial programming skills necessary for all technology majors at Software University. This includes writing entry-level programming code (basic coding skills), working with a development environment (IDE), using variables and data, operators and expressions, working with the console (reading input and printing results), using of conditional constructions (if, if-else) and loops (for, while).",
+        "btn": "To Do Certificate"
     }
 }
