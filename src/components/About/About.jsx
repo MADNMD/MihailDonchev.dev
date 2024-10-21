@@ -1,11 +1,14 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { motion } from 'framer-motion';
 import { FaReact, FaHtml5, FaNodeJs, FaGitAlt, FaJoomla, FaAngular } from "react-icons/fa";
 import { IoLogoJavascript, IoLogoCss3 } from "react-icons/io";
 import { SiExpress, SiMysql, SiMongodb, SiTypescript } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
+import { AppContext } from "../../contexts/AppContext";
 
 export const About = () => {
+
+    const { text } = useContext(AppContext);
 
     const skills = [
         { icon: <IoLogoJavascript className="text-yellow-500 text-4xl" /> },
@@ -31,7 +34,8 @@ export const About = () => {
             <motion.h1 className='mt-12 text-4xl font-bold navigation-text header-font'
                 initial={{ opacity: 0, y: -50 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 1 }}>About Me</motion.h1>
+                transition={{ duration: 1 }}>{text('about.header')}
+            </motion.h1>
             <div className='flex flex-row mt-8 p-4 gap-8'>
                 <div className='w-1/2 h-4/5'>
                     <motion.img src="/PortfolioPic.jpg" alt="profile-pic" className='w-full h-max rounded-lg'
@@ -45,7 +49,7 @@ export const About = () => {
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.7, delay: 0.5 }}>
-                            Hello! I’m Mihail Donchev, a passionate junior web developer specializing in JavaScript. With a strong foundation in modern web technologies like ReactJS, HTML, CSS, Tailwind, Node.js, and Express.js, I have successfully built and contributed to various web applications and interfaces. My journey in web development began with comprehensive courses at SoftUni, where I honed my skills and applied them in real-world projects.
+                            {text('about.section1')}
                         </motion.span>
                     </p>
                     <p className='text-white  text-lg mt-2 mb-2'>
@@ -53,7 +57,7 @@ export const About = () => {
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.7, delay: 0.5 }}>
-                            I hold a Bachelor’s degree in Civil and Corporate Security from New Bulgarian University and have furthered my technical expertise through continuous learning and hands-on experience. My technical skill set includes proficiency in databases such as MySQL and MongoDB, as well as testing frameworks like Mocha and Chai.
+                            {text('about.section2')}
                         </motion.span>
                     </p>
                     <p className='text-white  text-lg'>
@@ -61,14 +65,14 @@ export const About = () => {
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.7, delay: 0.5 }}>
-                            In addition to my technical abilities, I am highly motivated, creative, and responsible. I thrive in collaborative environments and am always eager to tackle new challenges. My personal projects, such as the Vanimi-Supermarket eCommerce platform and the Family Tree visualization tool, showcase my ability to deliver functional and user-friendly solutions.
+                            {text('about.section3')}
                         </motion.span>
                     </p>
                     <div>
                         <motion.h5 className='text-white text-3xl font-bold mt-4 header-font'
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.7, delay: 0.5 }}>Skills</motion.h5>
+                            transition={{ duration: 0.7, delay: 0.5 }}>{text('about.header2')}</motion.h5>
                         <ul className=' list-inside text-white text-xl'>
                             {/* {skills.map((skill, index) => (
                                 <motion.li key={index} className='flex gap-4 mt-2 mb-2'
