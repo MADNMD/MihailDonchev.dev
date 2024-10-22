@@ -24,9 +24,9 @@ export const Projects = () => {
                         <img src="/vanimi-supermaket.png" alt="Online supermarket" className='w-full h-4/5 rounded-lg ' />
                     </div>
                     <div className='flex-grow'>
-                        <p className='text-white mt-2 mb-4'><span className='font-bold'>{text('projects.vanimi.description')}: </span>{text('projects.vanimi.contentDescription')}</p>
+                        <p className='text-white mt-2 mb-4'><span className='font-bold'>{text('projects.vanimi.description')}: </span>{text('projects.vanimi.descriptionContent')}</p>
                         <ul className='list-disc list-inside ml-4 mb-4 text-white'>
-                            <li className='mb-2'><span className='font-bold'>{text('projects.vanimi.catalog')}: </span>{text('projects.vanimi.contentCatalog')}</li>
+                            <li className='mb-2'><span className='font-bold'>{text('projects.vanimi.catalog')}: </span>{text('projects.vanimi.catalogContent')}</li>
                             <li className='mb-2'><span className='font-bold'>{text('projects.vanimi.search')}: </span>{text('projects.vanimi.searchContent')}</li>
                             <li className='mb-2'><span className='font-bold'>{text('projects.vanimi.user')}: </span>{text('projects.vanimi.userContent')}</li>
                             <li className='mb-2'><span className='font-bold'>{text('projects.vanimi.discounts')}: </span>{text('projects.vanimi.discountsContent')}</li>
