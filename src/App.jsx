@@ -10,6 +10,7 @@ import { Certificates } from './components/Certificates/Certificates';
 import { Contacts } from './components/Contacts/Contacts';
 import { About } from './components/About/About';
 import { ScrollTop } from './components/ScrollTop/ScrollTop';
+import { Home } from './components/Home/Home';
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
                 <ScrollTop />
                 <div className='bg-body-bg w-full min-h-screen ml-48'>
                     <Routes>
+                        <Route path='/' element={<Home />} />
                         <Route path='/about' element={<About />} />
                         <Route path='/projects' element={<Projects />} />
                         <Route path='/certificates' element={<Certificates />} />
