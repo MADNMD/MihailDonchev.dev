@@ -11,21 +11,24 @@ import { Contacts } from './components/Contacts/Contacts';
 import { About } from './components/About/About';
 import { ScrollTop } from './components/ScrollTop/ScrollTop';
 import { Home } from './components/Home/Home';
+import { HamMenu } from './components/HamburgerMenu/HamMenu';
 
 function App() {
 
     return (
         <AppProvider>
             <div className='flex'>
-                <div className='flex'>
-                    <div className="flex flex-col justify-between fixed bg-navigation-bg w-48 h-screen">
+                <div className='hidden lg:flex'>
+                    <div className={`flex flex-col justify-between fixed bg-navigation-bg w-48 h-screen`}>
                         <Logo />
                         <Navigation />
                         <Footer />
                     </div>
                 </div>
                 <ScrollTop />
-                <div className='bg-body-bg w-full min-h-screen ml-48'>
+                <div className={`flex flex-col justify-between bg-body-bg 
+                                lg:ml-48 lg:w-full lg:min-h-screen`}>
+                    <HamMenu />
                     <Routes>
                         <Route path='/' element={<Home />} />
                         <Route path='/about' element={<About />} />
