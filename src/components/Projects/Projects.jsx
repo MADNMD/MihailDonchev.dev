@@ -1,11 +1,11 @@
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import {AppContext} from '../../contexts/AppContext';
+import { AppContext } from '../../contexts/AppContext';
 
 export const Projects = () => {
 
-    const {text} = useContext(AppContext);
+    const { text } = useContext(AppContext);
 
     return (
         <motion.div className='flex flex-col items-center justify-center'
@@ -16,7 +16,15 @@ export const Projects = () => {
                 initial={{ opacity: 0, y: -50 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}>{text('projects.header')}</motion.h1>
-            <div className='grid grid-cols-2 gap-4 mt-8 mr-4 ml-4'>
+            <div className={`
+                            grid gap-4 mt-8 mr-4 ml-4
+                            xxs:grid-cols-1
+                            xs:grid-cols-1
+                            sm:grid-cols-1
+                            md:grid-cols-1
+                            lg:grid-cols-2
+                            xl:grid-cols-2
+                `}>
 
                 <div className='bg-gray-700 shadow-lg rounded-lg p-4 flex flex-col'>
                     <div>
@@ -40,35 +48,38 @@ export const Projects = () => {
                             <li className='mb-2'><span className='font-bold'>Database: </span>MongoDB with Mongoose</li>
                         </ul>
                     </div>
-                    <div className='flex justify-evenly gap-20'>
-                        <Link to={'https://vanimi-supermarket.netlify.app/'} target='_blank' className='
-                        inline-block 
-                        text-white 
-                        text-base 
-                        bg-body-bg 
-                        m-2 
-                        px-10 
-                        py-2 
-                        rounded 
-                        button-font
+                    <div className={`
+                                    flex justify-evenly gap-20
+                                    xxs:gap-4
+                                    xs:gap-4
+                                    sm:gap-4
+                        `}>
+                        <Link to={'https://vanimi-supermarket.netlify.app/'} target='_blank' className={`
+                        inline-block text-nowrap text-white text-base bg-body-bg m-2 py-2 rounded button-font
                         transition-colors 
                         duration-300 
                         ease-in-out
-                        hover:bg-hover'>{text('projects.btn.visit')}</Link>
-                        <Link to={'https://github.com/MADNMD/Ecommerce-Supermarket'} target='_blank' className='
-                        inline-block 
-                        text-white 
-                        text-base 
-                        bg-body-bg 
-                        m-2 
-                        px-10 
-                        py-2 
-                        rounded 
-                        button-font
+                        hover:bg-hover
+                        xxs:px-4
+                        xs:px-4
+                        sm:px-10
+                        md:px-10
+                        lg:px-10
+                        xl:px-10
+                        `}>{text('projects.btn.visit')}</Link>
+                        <Link to={'https://github.com/MADNMD/Ecommerce-Supermarket'} target='_blank' className={`  
+                        inline-block text-nowrap text-white text-base bg-body-bg m-2 py-2 rounded button-font
                         transition-colors 
                         duration-300 
                         ease-in-out
-                        hover:bg-hover'>{text('projects.btn.code')}</Link>
+                        hover:bg-hover
+                        xxs:px-4
+                        xs:px-4
+                        sm:px-10
+                        md:px-10
+                        lg:px-10
+                        xl:px-10
+                        `}>{text('projects.btn.code')}</Link>
                     </div>
                 </div>
 
@@ -92,40 +103,42 @@ export const Projects = () => {
                             <li className='mb-2'><span className='font-bold'>Database and Authentication: </span>Firebase</li>
                         </ul>
                     </div>
-                    <div className='flex justify-evenly gap-20'>
-                        <Link to={'https://project-30-two.vercel.app/'} target='_blank' className='
-                        inline-block 
-                        text-white 
-                        text-base 
-                        bg-body-bg 
-                        m-2 
-                        px-10 
-                        py-2 
-                        rounded 
-                        button-font
+                    <div className={`
+                                    flex justify-evenly gap-20
+                                    xxs:gap-4
+                                    xs:gap-4
+                                    sm:gap-4
+                        `}>
+                        <Link to={'https://project-30-two.vercel.app/'} target='_blank' className={`  
+                        inline-block text-nowrap text-white text-base bg-body-bg m-2 py-2 rounded button-font
                         transition-colors 
                         duration-300 
                         ease-in-out
-                        hover:bg-hover'>{text('projects.btn.visit')}</Link>
+                        hover:bg-hover
+                        xxs:px-4
+                        xs:px-4
+                        sm:px-10
+                        md:px-10
+                        lg:px-10
+                        xl:px-10
+                        `}>{text('projects.btn.visit')}</Link>
                         <div className='relative group'>
-                            <Link to={''} target='_blank' className='
-                        cursor-not-allowed
-                        inline-block 
-                        text-white 
-                        text-base 
-                        bg-body-bg 
-                        m-2 
-                        px-10 
-                        py-2 
-                        rounded 
-                        button-font
+                            <Link to={''} target='_blank' className={`  
+                        cursor-not-allowed inline-block text-nowrap text-white text-base bg-body-bg m-2 py-2 rounded button-font
                         transition-colors 
                         duration-300 
                         ease-in-out
-                        hover:bg-hover'
+                        hover:bg-hover
+                        xxs:px-4
+                        xs:px-4
+                        sm:px-10
+                        md:px-10
+                        lg:px-10
+                        xl:px-10
+                        `}
                                 onClick={e => e.preventDefault()}>{text('projects.btn.code')}</Link>
                             <span className="absolute left-1/2 transform -translate-x-1/2 bottom-full mb-2 w-max p-2 bg-gray-700 text-white text-sm rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                            {text('projects.btn.private')}
+                                {text('projects.btn.private')}
                             </span>
                         </div>
                     </div>
@@ -151,36 +164,38 @@ export const Projects = () => {
                             <li className='mb-2'><span className='font-bold'>Database: </span>MySql</li>
                         </ul>
                     </div>
-                    <div className='flex justify-evenly gap-20'>
-                        <Link to={'https://europrojects-ruse.com/'} target='_blank' className='
-                        inline-block 
-                        text-white 
-                        text-base 
-                        bg-body-bg 
-                        m-2 
-                        px-10 
-                        py-2 
-                        rounded 
-                        button-font
+                    <div className={`
+                                flex justify-evenly gap-20
+                                xxs:gap-4
+                                xs:gap-4
+                                sm:gap-4
+                        `}>
+                        <Link to={'https://europrojects-ruse.com/'} target='_blank' className={`
+                        inline-block text-nowrap text-white text-base bg-body-bg m-2 py-2 rounded button-font
                         transition-colors 
                         duration-300 
                         ease-in-out
-                        hover:bg-hover'>{text('projects.btn.visit')}</Link>
-                        <Link to={''} target='_blank' className='
-                        cursor-not-allowed
-                        inline-block 
-                        text-white 
-                        text-base 
-                        bg-body-bg 
-                        m-2 
-                        px-10 
-                        py-2 
-                        rounded 
-                        button-font
+                        hover:bg-hover
+                        xxs:px-4
+                        xs:px-4
+                        sm:px-10
+                        md:px-10
+                        lg:px-10
+                        xl:px-10
+                        `}>{text('projects.btn.visit')}</Link>
+                        <Link to={''} target='_blank' className={`
+                        cursor-not-allowed inline-block text-nowrap text-white text-base bg-body-bg m-2 py-2 rounded button-font
                         transition-colors 
                         duration-300 
                         ease-in-out
-                        hover:bg-hover'
+                        hover:bg-hover
+                        xxs:px-4
+                        xs:px-4
+                        sm:px-10
+                        md:px-10
+                        lg:px-10
+                        xl:px-10
+                        `}
                             onClick={e => e.preventDefault()}>{text('projects.btn.code')}</Link>
                     </div>
                 </div>
@@ -204,35 +219,38 @@ export const Projects = () => {
                             <li className='mb-2'><span className='font-bold'>Database: </span>MongoDB with Mongoose</li>
                         </ul>
                     </div>
-                    <div className='flex justify-evenly gap-20'>
-                        <Link to={'https://shared-trip.netlify.app/'} target='_blank' className='
-                        inline-block 
-                        text-white 
-                        text-base 
-                        bg-body-bg 
-                        m-2 
-                        px-10 
-                        py-2 
-                        rounded 
-                        button-font
+                    <div className={`
+                            flex justify-evenly gap-20
+                            xxs:gap-4
+                            xs:gap-4
+                            sm:gap-4
+                        `}>
+                        <Link to={'https://shared-trip.netlify.app/'} target='_blank' className={`
+                        inline-block text-nowrap text-white text-base bg-body-bg m-2 py-2 rounded button-font
                         transition-colors 
                         duration-300 
                         ease-in-out
-                        hover:bg-hover'>{text('projects.btn.visit')}</Link>
-                        <Link to={'https://github.com/MADNMD/SharedTrip-React-Project'} target='_blank' className='
-                        inline-block 
-                        text-white 
-                        text-base 
-                        bg-body-bg 
-                        m-2 
-                        px-10 
-                        py-2 
-                        rounded 
-                        button-font
+                        hover:bg-hover
+                        xxs:px-4
+                        xs:px-4
+                        sm:px-10
+                        md:px-10
+                        lg:px-10
+                        xl:px-10
+                        `}>{text('projects.btn.visit')}</Link>
+                        <Link to={'https://github.com/MADNMD/SharedTrip-React-Project'} target='_blank' className={`
+                        inline-block text-nowrap text-white text-base bg-body-bg m-2 py-2 rounded button-font
                         transition-colors 
                         duration-300 
                         ease-in-out
-                        hover:bg-hover'>{text('projects.btn.code')}</Link>
+                        hover:bg-hover
+                        xxs:px-4
+                        xs:px-4
+                        sm:px-10
+                        md:px-10
+                        lg:px-10
+                        xl:px-10
+                        `}>{text('projects.btn.code')}</Link>
                     </div>
                 </div>
 
@@ -255,35 +273,38 @@ export const Projects = () => {
                             <li className='mb-2'><span className='font-bold'>Database: </span>MongoDB with Mongoose</li>
                         </ul>
                     </div>
-                    <div className='flex justify-evenly gap-20'>
-                        <Link to={'https://corssfit.netlify.app/home'} target='_blank' className='
-                        inline-block 
-                        text-white 
-                        text-base 
-                        bg-body-bg 
-                        m-2 
-                        px-10 
-                        py-2 
-                        rounded 
-                        button-font
+                    <div className={`
+                            flex justify-evenly gap-20
+                            xxs:gap-4
+                            xs:gap-4
+                            sm:gap-4
+                        `}>
+                        <Link to={'https://corssfit.netlify.app/home'} target='_blank' className={`
+                        inline-block text-nowrap text-white text-base bg-body-bg m-2 py-2 rounded button-font
                         transition-colors 
                         duration-300 
                         ease-in-out
-                        hover:bg-hover'>{text('projects.btn.visit')}</Link>
-                        <Link to={'https://github.com/MADNMD/CrossFit-Angular-Project'} target='_blank' className='
-                        inline-block 
-                        text-white 
-                        text-base 
-                        bg-body-bg 
-                        m-2 
-                        px-10 
-                        py-2 
-                        rounded 
-                        button-font
+                        hover:bg-hover
+                        xxs:px-4
+                        xs:px-4
+                        sm:px-10
+                        md:px-10
+                        lg:px-10
+                        xl:px-10
+                        `}>{text('projects.btn.visit')}</Link>
+                        <Link to={'https://github.com/MADNMD/CrossFit-Angular-Project'} target='_blank' className={`
+                        inline-block text-nowrap text-white text-base bg-body-bg m-2 py-2 rounded button-font
                         transition-colors 
                         duration-300 
                         ease-in-out
-                        hover:bg-hover'>{text('projects.btn.code')}</Link>
+                        hover:bg-hover
+                        xxs:px-4
+                        xs:px-4
+                        sm:px-10
+                        md:px-10
+                        lg:px-10
+                        xl:px-10
+                        `}>{text('projects.btn.code')}</Link>
                     </div>
                 </div>
 
@@ -304,35 +325,38 @@ export const Projects = () => {
                             <li className='mb-2'><span className='font-bold'>Frontend: </span>Vanila JavaScript, HTML, CSS</li>
                         </ul>
                     </div>
-                    <div className='flex justify-evenly gap-20'>
-                        <Link to={'https://madnmd.github.io/date-and-clock.github.io/'} target='_blank' className='
-                        inline-block 
-                        text-white 
-                        text-base 
-                        bg-body-bg 
-                        m-2 
-                        px-10 
-                        py-2 
-                        rounded 
-                        button-font
+                    <div className={`
+                            flex justify-evenly gap-20
+                            xxs:gap-4
+                            xs:gap-4
+                            sm:gap-4
+                        `}>
+                        <Link to={'https://madnmd.github.io/date-and-clock.github.io/'} target='_blank' className={`
+                        inline-block text-nowrap text-white text-base bg-body-bg m-2 py-2 rounded button-font
                         transition-colors 
                         duration-300 
                         ease-in-out
-                        hover:bg-hover'>{text('projects.btn.visit')}</Link>
-                        <Link to={'https://github.com/MADNMD/date-and-clock.github.io?tab=readme-ov-file'} target='_blank' className='
-                        inline-block 
-                        text-white 
-                        text-base 
-                        bg-body-bg 
-                        m-2 
-                        px-10 
-                        py-2 
-                        rounded 
-                        button-font
+                        hover:bg-hover
+                        xxs:px-4
+                        xs:px-4
+                        sm:px-10
+                        md:px-10
+                        lg:px-10
+                        xl:px-10
+                        `}>{text('projects.btn.visit')}</Link>
+                        <Link to={'https://github.com/MADNMD/date-and-clock.github.io?tab=readme-ov-file'} target='_blank' className={`
+                        inline-block text-nowrap text-white text-base bg-body-bg m-2 py-2 rounded button-font
                         transition-colors 
                         duration-300 
                         ease-in-out
-                        hover:bg-hover'>{text('projects.btn.code')}</Link>
+                        hover:bg-hover
+                        xxs:px-4
+                        xs:px-4
+                        sm:px-10
+                        md:px-10
+                        lg:px-10
+                        xl:px-10
+                        `}>{text('projects.btn.code')}</Link>
                     </div>
                 </div>
 
@@ -352,35 +376,38 @@ export const Projects = () => {
                             <li className='mb-2'><span className='font-bold'>Frontend: </span>Vanila JavaScript, HTML, CSS</li>
                         </ul>
                     </div>
-                    <div className='flex justify-evenly gap-20'>
-                        <Link to={'https://madnmd.github.io/Generate-Quotes.github.io/'} target='_blank' className='
-                        inline-block 
-                        text-white 
-                        text-base 
-                        bg-body-bg 
-                        m-2 
-                        px-10 
-                        py-2 
-                        rounded 
-                        button-font
+                    <div className={`
+                            flex justify-evenly gap-20
+                            xxs:gap-4
+                            xs:gap-4
+                            sm:gap-4
+                        `}>
+                        <Link to={'https://madnmd.github.io/Generate-Quotes.github.io/'} target='_blank' className={`
+                        inline-block text-nowrap text-white text-base bg-body-bg m-2 py-2 rounded button-font
                         transition-colors 
                         duration-300 
                         ease-in-out
-                        hover:bg-hover'>{text('projects.btn.visit')}</Link>
-                        <Link to={'https://github.com/MADNMD/Generate-Quotes.github.io?tab=readme-ov-file'} target='_blank' className='
-                        inline-block 
-                        text-white 
-                        text-base 
-                        bg-body-bg 
-                        m-2 
-                        px-10 
-                        py-2 
-                        rounded 
-                        button-font
+                        hover:bg-hover
+                        xxs:px-4
+                        xs:px-4
+                        sm:px-10
+                        md:px-10
+                        lg:px-10
+                        xl:px-10
+                        `}>{text('projects.btn.visit')}</Link>
+                        <Link to={'https://github.com/MADNMD/Generate-Quotes.github.io?tab=readme-ov-file'} target='_blank' className={`
+                        inline-block text-nowrap text-white text-base bg-body-bg m-2 py-2 rounded button-font
                         transition-colors 
                         duration-300 
                         ease-in-out
-                        hover:bg-hover'>{text('projects.btn.code')}</Link>
+                        hover:bg-hover
+                        xxs:px-4
+                        xs:px-4
+                        sm:px-10
+                        md:px-10
+                        lg:px-10
+                        xl:px-10
+                        `}>{text('projects.btn.code')}</Link>
                     </div>
                 </div>
 
@@ -401,35 +428,38 @@ export const Projects = () => {
                             <li className='mb-2'><span className='font-bold'>Frontend: </span>Vanila JavaScript, HTML, CSS</li>
                         </ul>
                     </div>
-                    <div className='flex justify-evenly gap-20'>
-                        <Link to={'https://madnmd.github.io/To-Do-List.github.io/'} target='_blank' className='
-                        inline-block 
-                        text-white 
-                        text-base 
-                        bg-body-bg 
-                        m-2 
-                        px-10 
-                        py-2 
-                        rounded 
-                        button-font
+                    <div className={`
+                            flex justify-evenly gap-20
+                            xxs:gap-4
+                            xs:gap-4
+                            sm:gap-4
+                        `}>
+                        <Link to={'https://madnmd.github.io/To-Do-List.github.io/'} target='_blank' className={`
+                        inline-block text-nowrap text-white text-base bg-body-bg m-2 py-2 rounded button-font
                         transition-colors 
                         duration-300 
                         ease-in-out
-                        hover:bg-hover'>{text('projects.btn.visit')}</Link>
-                        <Link to={'https://github.com/MADNMD/To-Do-List.github.io?tab=readme-ov-file'} target='_blank' className='
-                        inline-block 
-                        text-white 
-                        text-base 
-                        bg-body-bg 
-                        m-2 
-                        px-10 
-                        py-2 
-                        rounded 
-                        button-font
+                        hover:bg-hover
+                        xxs:px-4
+                        xs:px-4
+                        sm:px-10
+                        md:px-10
+                        lg:px-10
+                        xl:px-10
+                        `}>{text('projects.btn.visit')}</Link>
+                        <Link to={'https://github.com/MADNMD/To-Do-List.github.io?tab=readme-ov-file'} target='_blank' className={`
+                        inline-block text-nowrap text-white text-base bg-body-bg m-2 py-2 rounded button-font
                         transition-colors 
                         duration-300 
                         ease-in-out
-                        hover:bg-hover'>{text('projects.btn.code')}</Link>
+                        hover:bg-hover
+                        xxs:px-4
+                        xs:px-4
+                        sm:px-10
+                        md:px-10
+                        lg:px-10
+                        xl:px-10
+                        `}>{text('projects.btn.code')}</Link>
                     </div>
                 </div>
 
@@ -450,35 +480,38 @@ export const Projects = () => {
                             <li className='mb-2'><span className='font-bold'>Frontend: </span>Vanila JavaScript, HTML, CSS</li>
                         </ul>
                     </div>
-                    <div className='flex justify-evenly gap-20'>
-                        <Link to={'https://madnmd.github.io/Background-Colors.github.io/'} target='_blank' className='
-                        inline-block 
-                        text-white 
-                        text-base 
-                        bg-body-bg 
-                        m-2 
-                        px-10 
-                        py-2 
-                        rounded 
-                        button-font
+                    <div className={`
+                            flex justify-evenly gap-20
+                            xxs:gap-4
+                            xs:gap-4
+                            sm:gap-4
+                        `}>
+                        <Link to={'https://madnmd.github.io/Background-Colors.github.io/'} target='_blank' className={`
+                        inline-block text-nowrap text-white text-base bg-body-bg m-2 py-2 rounded button-font
                         transition-colors 
                         duration-300 
                         ease-in-out
-                        hover:bg-hover'>{text('projects.btn.visit')}</Link>
-                        <Link to={'https://github.com/MADNMD/Background-Colors.github.io?tab=readme-ov-file'} target='_blank' className='
-                        inline-block 
-                        text-white 
-                        text-base 
-                        bg-body-bg 
-                        m-2 
-                        px-10 
-                        py-2 
-                        rounded 
-                        button-font
+                        hover:bg-hover
+                        xxs:px-4
+                        xs:px-4
+                        sm:px-10
+                        md:px-10
+                        lg:px-10
+                        xl:px-10
+                        `}>{text('projects.btn.visit')}</Link>
+                        <Link to={'https://github.com/MADNMD/Background-Colors.github.io?tab=readme-ov-file'} target='_blank' className={`
+                        inline-block text-nowrap text-white text-base bg-body-bg m-2 py-2 rounded button-font
                         transition-colors 
                         duration-300 
                         ease-in-out
-                        hover:bg-hover'>{text('projects.btn.code')}</Link>
+                        hover:bg-hover
+                        xxs:px-4
+                        xs:px-4
+                        sm:px-10
+                        md:px-10
+                        lg:px-10
+                        xl:px-10
+                        `}>{text('projects.btn.code')}</Link>
                     </div>
                 </div>
             </div>
