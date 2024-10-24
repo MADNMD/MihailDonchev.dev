@@ -36,14 +36,37 @@ export const About = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}>{text('about.header')}
             </motion.h1>
-            <div className='flex flex-row mt-8 p-4 gap-8'>
-                <div className='w-1/2 h-4/5'>
+            <div className={`
+                flex flex-row mt-8 p-4 gap-8
+                xxs:flex-wrap
+                xs:flex-wrap
+                sm:flex-wrap
+                md:flex-wrap
+                lg:flex-nowrap
+                xl:flex-nowrap
+                `}>
+                <div className={`
+                    xxs:w-full xxs:h-auto
+                    xs:w-full
+                    sm:w-full
+                    md:w-full 
+                    lg:w-1/2 lg:h-4/5
+                    xl:w-1/2 xl:h-4/5
+                    `}>
                     <motion.img src="/PortfolioPic.jpg" alt="profile-pic" className='w-full h-max rounded-lg'
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.7, delay: 0.5 }} />
                 </div>
-                <div className=' felx flex-col w-1/2'>
+                <div className={`
+                    felx flex-col
+                    xxs:w-full 
+                    xs:w-full
+                    sm:w-full
+                    md:w-full 
+                    lg:w-1/2 
+                    xl:w-1/2 
+                    `}>
                     <p className='text-white text-lg mb-2'>
                         <motion.span
                             initial={{ opacity: 0, y: 20 }}
