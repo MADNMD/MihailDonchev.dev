@@ -59,7 +59,15 @@ export const Contacts = () => {
     });
 
     return (
-        <motion.div className='flex flex-col items-center justify-center overflow-hidden'
+        <motion.div className={`
+            flex flex-col items-center justify-center overflow-hidden
+            xxs:h-screen xxs:w-screen
+            xs:h-screen xs:w-screen
+            sm:w-screen
+            md:w-full
+            lg:w-full
+            xl:w-full
+            `}
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2, duration: 0.5 }}>
@@ -69,17 +77,40 @@ export const Contacts = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}>{text('contacts.header')}</motion.h1>
             <div className='flex flex-row mt-8 gap-10 bg-gray-700 shadow-lg rounded-lg p-4'>
-                <motion.div className='ml-12'
+                <motion.div className={`
+                ml-12
+                xxs:hidden
+                xs:hidden
+                sm:hidden
+                md:block
+                lg:block
+                xl:block
+                `}
                     initial={{ x: -100, opacity: 0 }}
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ duration: 1 }}>
-                    <img src="/man.png" alt="" />
+                    <img src="/man.png" alt="img" className={`
+                        xxs:
+                        xs:
+                        sm:
+                        md:w-full md:h-full
+                        lg:w-full lg:h-full
+                        xl:
+                        `}/>
                 </motion.div>
-                <motion.div className='mr-12'
+                <motion.div className={`
+                mr-12
+                xxs:mr-0 
+                xs:w-80
+                sm:
+                md:w-auto
+                lg:w-auto
+                xl:w-auto
+                `}
                     initial={{ x: 100, opacity: 0 }}
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ duration: 1 }}>
-                    <form onSubmit={formik.handleSubmit}>
+                    <form onSubmit={formik.handleSubmit} >
                         <Box
                             sx={{
                                 display: 'flex',
