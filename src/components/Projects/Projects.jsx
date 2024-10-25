@@ -32,7 +32,15 @@ export const Projects = () => {
                         <img src="/vanimi-supermaket.png" alt="Online supermarket" className='w-full h-4/5 rounded-lg ' />
                     </div>
                     <div className='flex-grow'>
-                        <p className='text-white mt-2 mb-4'><span className='font-bold'>{text('projects.vanimi.description')}: </span>{text('projects.vanimi.descriptionContent')}</p>
+                        <p className={`
+                            text-white  mb-4
+                            xxs:mt-12
+                            xs:mt-4
+                            sm:mt-4
+                            md:mt-2
+                            lg:mt-4
+                            xl:mt-2
+                            `}><span className='font-bold'>{text('projects.vanimi.description')}: </span>{text('projects.vanimi.descriptionContent')}</p>
                         <ul className='list-disc list-inside ml-4 mb-4 text-white'>
                             <li className='mb-2'><span className='font-bold'>{text('projects.vanimi.catalog')}: </span>{text('projects.vanimi.catalogContent')}</li>
                             <li className='mb-2'><span className='font-bold'>{text('projects.vanimi.search')}: </span>{text('projects.vanimi.searchContent')}</li>
@@ -89,7 +97,15 @@ export const Projects = () => {
                         <img src="/family-tree.png" alt="Online supermarket" className='w-full h-4/5 rounded-lg ' />
                     </div>
                     <div className='flex-grow'>
-                        <p className='text-white mt-2 mb-4'><span className='font-bold'>{text('projects.familyTree.description')}: </span>{text('projects.familyTree.descriptionContent')}</p>
+                        <p className={`
+                            text-white mt-2 mb-4
+                            xxs:mt-8
+                            xs:mt-4
+                            sm:mt-4
+                            md:mt-2
+                            lg:mt-4
+                            xl:mt-2
+                            `}><span className='font-bold'>{text('projects.familyTree.description')}: </span>{text('projects.familyTree.descriptionContent')}</p>
                         <ul className='list-disc list-inside ml-4 mb-4 text-white'>
                             <li className='mb-2'><span className='font-bold'>{text('projects.familyTree.freeVersion')}: </span>{text('projects.familyTree.freeVersionContent')}</li>
                             <li className='mb-2'><span className='font-bold'>{text('projects.familyTree.paidVersion')}: </span>{text('projects.familyTree.padiVersionContent')}</li>
@@ -150,7 +166,15 @@ export const Projects = () => {
                         <img src="/euro-projects.png" alt="Online supermarket" className='w-full h-4/5 rounded-lg ' />
                     </div>
                     <div className='flex-grow'>
-                        <p className='text-white mt-2 mb-4'><span className='font-bold'>{text('projects.euroProjects.description')}: </span>{text('projects.euroProjects.descriptionContent')}</p>
+                        <p className={`
+                            text-white mt-2 mb-4
+                            xxs:mt-8
+                            xs:mt-4
+                            sm:mt-4
+                            md:mt-2
+                            lg:mt-4
+                            xl:mt-2
+                            `}><span className='font-bold'>{text('projects.euroProjects.description')}: </span>{text('projects.euroProjects.descriptionContent')}</p>
                         <ul className='list-disc list-inside ml-4 mb-4 text-white'>
                             <li className='mb-2'><span className='font-bold'>{text('projects.euroProjects.investments')}: </span>{text('projects.euroProjects.investmentsContent')}</li>
                             <li className='mb-2'><span className='font-bold'>{text('projects.euroProjects.marketing')}: </span>{text('projects.euroProjects.marketingContent')}</li>
@@ -206,7 +230,15 @@ export const Projects = () => {
                         <img src="/shared-trip.png" alt="Online supermarket" className='w-full h-4/5 rounded-lg ' />
                     </div>
                     <div className='flex-grow'>
-                        <p className='text-white mt-2 mb-4'><span className='font-bold'>{text('projects.sharedTrip.description')}: </span>{text('projects.sharedTrip.descriptionContent')}</p>
+                        <p className={`
+                            text-white mt-2 mb-4
+                            xxs:mt-8
+                            xs:mt-4
+                            sm:mt-4
+                            md:mt-2
+                            lg:mt-4
+                            xl:mt-2
+                            `}><span className='font-bold'>{text('projects.sharedTrip.description')}: </span>{text('projects.sharedTrip.descriptionContent')}</p>
                         <ul className='list-disc list-inside ml-4 mb-4 text-white'>
                             <li className='mb-2'><span className='font-bold'>{text('projects.sharedTrip.user')}: </span>{text('projects.sharedTrip.userContent')}</li>
                             <li className='mb-2'><span className='font-bold'>{text('projects.sharedTrip.search')}: </span>{text('projects.sharedTrip.searchContent')}</li>
@@ -260,7 +292,15 @@ export const Projects = () => {
                         <img src="/crossfit.png" alt="Online supermarket" className='w-full h-4/5 rounded-lg ' />
                     </div>
                     <div className='flex-grow'>
-                        <p className='text-white mt-2 mb-4'><span className='font-bold'>{text('projects.crossFit.description')}: </span>{text('projects.crossFit.descriptionContent')}</p>
+                        <p className={`
+                            text-white mt-2 mb-4
+                            xxs:mt-8
+                            xs:mt-4
+                            sm:mt-4
+                            md:mt-2
+                            lg:mt-4
+                            xl:mt-2
+                            `}><span className='font-bold'>{text('projects.crossFit.description')}: </span>{text('projects.crossFit.descriptionContent')}</p>
                         <ul className='list-disc list-inside ml-4 mb-4 text-white'>
                             <li className='mb-2'><span className='font-bold'>{text('projects.crossFit.user')}: </span>{text('projects.crossFit.userContent')}</li>
                             <li className='mb-2'><span className='font-bold'>{text('projects.crossFit.share')}: </span>{text('projects.crossFit.userContent')}</li>
@@ -314,7 +354,15 @@ export const Projects = () => {
                         <img src="/clock.png" alt="Online supermarket" className='w-full h-4/5 rounded-lg ' />
                     </div>
                     <div className='flex-grow'>
-                        <p className='text-white mt-2 mb-4'><span className='font-bold'>{text('projects.dateAndClock.description')}: </span>{text('projects.dateAndClock.descriptionContent')}</p>
+                        <p className={`
+                            text-white mt-2 mb-4
+                            xxs:mt-8
+                            xs:mt-4
+                            sm:mt-4
+                            md:mt-2
+                            lg:mt-4
+                            xl:mt-2
+                            `}><span className='font-bold'>{text('projects.dateAndClock.description')}: </span>{text('projects.dateAndClock.descriptionContent')}</p>
                         <ul className='list-disc list-inside ml-4 mb-4 text-white'>
                             <li className='mb-2'><span className='font-bold'>{text('projects.dateAndClock.currentTime')}: </span>{text('projects.dateAndClock.currentTimeContent')}</li>
                             <li className='mb-2'><span className='font-bold'>{text('projects.dateAndClock.currentDate')}: </span>{text('projects.dateAndClock.currentDateContent')}</li>
@@ -366,7 +414,15 @@ export const Projects = () => {
                         <img src="/generate-quotes.png" alt="Online supermarket" className='w-full h-4/5 rounded-lg ' />
                     </div>
                     <div className='flex-grow'>
-                        <p className='text-white mt-2 mb-4'><span className='font-bold'>{text('projects.quotes.description')}: </span>{text('projects.quotes.descriptionContent')}</p>
+                        <p className={`
+                            text-white mt-2 mb-4
+                            xxs:mt-8
+                            xs:mt-4
+                            sm:mt-4
+                            md:mt-2
+                            lg:mt-4
+                            xl:mt-2
+                            `}><span className='font-bold'>{text('projects.quotes.description')}: </span>{text('projects.quotes.descriptionContent')}</p>
                         <ul className='list-disc list-inside ml-4 mb-4 text-white'>
                             <li className='mb-2'><span className='font-bold'>{text('projects.quotes.quotes')}: </span>{text('projects.quotes.quotesContent')}</li>
                             <li className='mb-2'><span className='font-bold'>{text('projects.quotes.interface')}: </span>{text('projects.quotes.interfaceContent')}</li>
@@ -417,7 +473,15 @@ export const Projects = () => {
                         <img src="/todos.png" alt="Online supermarket" className='w-full h-4/5 rounded-lg ' />
                     </div>
                     <div className='flex-grow'>
-                        <p className='text-white mt-2 mb-4'><span className='font-bold'>{text('projects.toDo.description')}: </span>{text('projects.toDo.descriptionContent')}</p>
+                        <p className={`
+                            text-white mt-2 mb-4
+                            xxs:mt-8
+                            xs:mt-4
+                            sm:mt-4
+                            md:mt-2
+                            lg:mt-4
+                            xl:mt-2
+                            `}><span className='font-bold'>{text('projects.toDo.description')}: </span>{text('projects.toDo.descriptionContent')}</p>
                         <ul className='list-disc list-inside ml-4 mb-4 text-white'>
                             <li className='mb-2'><span className='font-bold'>{text('projects.toDo.task')}: </span>{text('projects.toDo.taskContent')}</li>
                             <li className='mb-2'><span className='font-bold'>{text('projects.toDo.interactive')}: </span>{text('projects.toDo.interactiveContent')}</li>
@@ -469,7 +533,15 @@ export const Projects = () => {
                         <img src="/bg-colors.png" alt="Online supermarket" className='w-full h-4/5 rounded-lg ' />
                     </div>
                     <div className='flex-grow'>
-                        <p className='text-white mt-2 mb-4'><span className='font-bold'>{text('projects.colors.description')}: </span>{text('projects.colors.descriptionContent')}</p>
+                        <p className={`
+                            text-white mt-2 mb-4
+                            xxs:mt-8
+                            xs:mt-4
+                            sm:mt-4
+                            md:mt-2
+                            lg:mt-4
+                            xl:mt-2
+                            `}><span className='font-bold'>{text('projects.colors.description')}: </span>{text('projects.colors.descriptionContent')}</p>
                         <ul className='list-disc list-inside ml-4 mb-4 text-white'>
                             <li className='mb-2'><span className='font-bold'>{text('projects.colors.changeColor')}: </span>{text('projects.colors.changeColorContent')}</li>
                             <li className='mb-2'><span className='font-bold'>{text('projects.colors.interface')}: </span>{text('projects.colors.interfaceContent')}</li>
