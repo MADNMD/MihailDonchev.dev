@@ -75,7 +75,8 @@ export const Contacts = () => {
             <motion.h1 className='mt-12 text-4xl font-bold navigation-text header-font'
                 initial={{ opacity: 0, y: -50 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 1 }}>{text('contacts.header')}</motion.h1>
+                transition={{ duration: 1 }}>{text('contacts.header')}
+            </motion.h1>
             <div className='flex flex-row mt-8 gap-10 bg-gray-700 shadow-lg rounded-lg p-4'>
                 <motion.div className={`
                 ml-12
@@ -96,7 +97,7 @@ export const Contacts = () => {
                         md:w-full md:h-full
                         lg:w-full lg:h-full
                         xl:
-                        `}/>
+                        `} />
                 </motion.div>
                 <motion.div className={`
                 mr-12
