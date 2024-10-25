@@ -529,7 +529,7 @@ export const Projects = () => {
 
                 <div className='bg-gray-700 shadow-lg rounded-lg p-4 flex flex-col'>
                     <div>
-                        <h5 className='text-xl font-bold text-center mt-2 mb-4 text-white'>Backgourn Colors</h5>
+                        <h5 className='text-xl font-bold text-center mt-2 mb-4 text-white'>Background Colors</h5>
                         <img src="/bg-colors.png" alt="Online supermarket" className='w-full h-4/5 rounded-lg ' />
                     </div>
                     <div className='flex-grow'>
