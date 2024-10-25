@@ -132,6 +132,7 @@
     },
     "certificates": {
         "header": "My Certificates",
+        "intern": "Working in a team of 5-6 people, I was involved in the development of an innovative family tree website. The project allowed me to gain valuable teamwork skills and become familiar with the use of the GIT version control system. In addition, I learned many new things related to web development and project management.",
         "mysql": "One of the most widely used database management systems in the development of modern applications. Relational databases, basic functionalities such as working with tables, grouping functions, transactions, procedures, etc.",
         "react": "Knowledge and practical skills for SPA development using ReactJS technology. JSX syntax working with requests and promises, splitting an application into components, form routing and validation, different ways to style components using techniques like CSS modules and Styled Components. React Hooks, Context API.",
         "htmlCss": "In this course, I learned the basics of HTML5 and CSS3 web technologies. I learned the basic HTML tags, paragraphs, lists, tables, forms, controls and semantic HTML tags. Emphasis is on basic CSS selectors and styles, working with classes, presentation rules, positioning and layout rules in CSS. The course emphasizes hands-on exercises with HTML and CSS, working on real web page development projects, implementation of site fragments and creating complete modern websites with a good look, modern structure and mobile support.",
