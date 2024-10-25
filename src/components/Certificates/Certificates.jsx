@@ -28,6 +28,33 @@ export const Certificates = () => {
 
                 <div className='bg-gray-700 shadow-lg rounded-lg p-4 flex flex-col'>
                     <div>
+                        <h5 className='text-xl font-bold text-center mt-2 mb-4 text-white'>Intern</h5>
+                        <img src="/intern.png" alt="intern" className='w-full h-max rounded-lg ' />
+                    </div>
+                    <div className='flex-grow'>
+                        <p className='text-white mb-4 mt-4'>{text('certificates.intern')}</p>
+
+                    </div>
+                    <div className='flex justify-evenly gap-20'>
+                        <Link to={'https://huutgnkansvslafnbtbg.supabase.co/storage/v1/object/public/files/certificates/season1/Certificate-Intern-Mihail-Donchev.pdf'} target='_blank' className='
+                        inline-block 
+                        text-white 
+                        text-base 
+                        bg-body-bg 
+                        m-2 
+                        px-10 
+                        py-2 
+                        rounded 
+                        button-font
+                        transition-colors 
+                        duration-300 
+                        ease-in-out
+                        hover:bg-hover'>{text('certificates.btn')}</Link>
+                    </div>
+                </div>
+
+                <div className='bg-gray-700 shadow-lg rounded-lg p-4 flex flex-col'>
+                    <div>
                         <h5 className='text-xl font-bold text-center mt-2 mb-4 text-white'>MySQL</h5>
                         <img src="/MySQL.jpeg" alt="Online supermarket" className='w-full h-max rounded-lg ' />
                     </div>
