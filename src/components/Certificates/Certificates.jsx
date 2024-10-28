@@ -40,7 +40,15 @@ export const Certificates = () => {
                             `} />
                     </div>
                     <div className='flex-grow'>
-                        <p className='text-white mb-4 mt-4'>{text('certificates.intern')}</p>
+                        <p className={`
+                            text-white mb-4
+                            xxs:mt-16
+                            xs:mt-16
+                            sm:mt-16
+                            md:mt-4
+                            lg:mt-4
+                            xl:mt-4
+                            `}>{text('certificates.intern')}</p>
 
                     </div>
                     <div className='flex justify-evenly gap-20'>
@@ -75,7 +83,15 @@ export const Certificates = () => {
                             `} />
                     </div>
                     <div className='flex-grow'>
-                        <p className='text-white mb-4 mt-4'>{text('certificates.mysql')}</p>
+                        <p className={`
+                            text-white mb-4
+                            xxs:mt-16
+                            xs:mt-16
+                            sm:mt-16
+                            md:mt-4
+                            lg:mt-4
+                            xl:mt-4
+                        `}>{text('certificates.mysql')}</p>
 
                     </div>
                     <div className='flex justify-evenly gap-20'>
@@ -107,10 +123,18 @@ export const Certificates = () => {
                             md:h-max
                             lg:h-max
                             xl:h-max
-                            `} />
+                        `} />
                     </div>
                     <div className='flex-grow'>
-                        <p className='text-white mb-4 mt-4'>{text('certificates.react')}</p>
+                        <p className={`
+                            text-white mb-4
+                            xxs:mt-16
+                            xs:mt-16
+                            sm:mt-16
+                            md:mt-4
+                            lg:mt-4
+                            xl:mt-4
+                        `}>{text('certificates.react')}</p>
                     </div>
                     <div className='flex justify-evenly gap-20'>
                         <Link to={'https://softuni.bg/certificates/details/197803/9cd256fd'} target='_blank' className='
@@ -141,10 +165,18 @@ export const Certificates = () => {
                             md:h-max
                             lg:h-max
                             xl:h-max
-                            `} />
+                        `} />
                     </div>
                     <div className='flex-grow'>
-                        <p className='text-white mb-4 mt-4'>{text('certificates.htmlCss')}</p>
+                        <p className={`
+                            text-white mb-4
+                            xxs:mt-16
+                            xs:mt-16
+                            sm:mt-16
+                            md:mt-4
+                            lg:mt-4
+                            xl:mt-4
+                        `}>{text('certificates.htmlCss')}</p>
 
                     </div>
                     <div className='flex justify-evenly gap-20'>
@@ -179,7 +211,15 @@ export const Certificates = () => {
                             `} />
                     </div>
                     <div className='flex-grow'>
-                        <p className='text-white mb-4 mt-4'>{text('certificates.angular')}</p>
+                        <p className={`
+                            text-white mb-4
+                            xxs:mt-16
+                            xs:mt-16
+                            sm:mt-16
+                            md:mt-4
+                            lg:mt-4
+                            xl:mt-4
+                        `}>{text('certificates.angular')}</p>
 
                     </div>
                     <div className='flex justify-evenly gap-20'>
@@ -214,7 +254,15 @@ export const Certificates = () => {
                             `} />
                     </div>
                     <div className='flex-grow'>
-                        <p className='text-white mb-4 mt-4'>{text('certificates.jsBackEnd')}</p>
+                        <p className={`
+                            text-white mb-4
+                            xxs:mt-16
+                            xs:mt-16
+                            sm:mt-16
+                            md:mt-4
+                            lg:mt-4
+                            xl:mt-4
+                        `}>{text('certificates.jsBackEnd')}</p>
 
                     </div>
                     <div className='flex justify-evenly gap-20'>
@@ -246,10 +294,18 @@ export const Certificates = () => {
                             md:h-max
                             lg:h-max
                             xl:h-max
-                            `} />
+                        `} />
                     </div>
                     <div className='flex-grow'>
-                        <p className='text-white mb-4 mt-4'>{text('certificates.jsApp')}</p>
+                        <p className={`
+                            text-white mb-4
+                            xxs:mt-16
+                            xs:mt-16
+                            sm:mt-16
+                            md:mt-4
+                            lg:mt-4
+                            xl:mt-4
+                        `}>{text('certificates.jsApp')}</p>
 
                     </div>
                     <div className='flex justify-evenly gap-20'>
@@ -281,10 +337,18 @@ export const Certificates = () => {
                             md:h-max
                             lg:h-max
                             xl:h-max
-                            `} />
+                        `} />
                     </div>
                     <div className='flex-grow'>
-                        <p className='text-white mb-4 mt-4'>{text('certificates.jsAdvanced')}</p>
+                        <p className={`
+                            text-white mb-4
+                            xxs:mt-16
+                            xs:mt-16
+                            sm:mt-16
+                            md:mt-4
+                            lg:mt-4
+                            xl:mt-4
+                        `}>{text('certificates.jsAdvanced')}</p>
 
                     </div>
                     <div className='flex justify-evenly gap-20'>
@@ -316,10 +380,18 @@ export const Certificates = () => {
                             md:h-max
                             lg:h-max
                             xl:h-max
-                            `} />
+                        `} />
                     </div>
                     <div className='flex-grow'>
-                        <p className='text-white mb-4 mt-4'>{text('certificates.fundamentals')}</p>
+                        <p className={`
+                            text-white mb-4
+                            xxs:mt-16
+                            xs:mt-16
+                            sm:mt-16
+                            md:mt-4
+                            lg:mt-4
+                            xl:mt-4
+                        `}>{text('certificates.fundamentals')}</p>
 
                     </div>
                     <div className='flex justify-evenly gap-20'>
@@ -351,10 +423,18 @@ export const Certificates = () => {
                             md:h-max
                             lg:h-max
                             xl:h-max
-                            `} />
+                        `} />
                     </div>
                     <div className='flex-grow'>
-                        <p className='text-white mb-4 mt-4'>{text('certificates.basic')}</p>
+                        <p className={`
+                            text-white mb-4
+                            xxs:mt-16
+                            xs:mt-16
+                            sm:mt-16
+                            md:mt-4
+                            lg:mt-4
+                            xl:mt-4
+                        `}>{text('certificates.basic')}</p>
 
                     </div>
                     <div className='flex justify-evenly gap-20'>
