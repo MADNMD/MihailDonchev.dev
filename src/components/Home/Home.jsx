@@ -26,9 +26,9 @@ export const Home = () => {
                     <div className="ml-8">
                         <motion.p className={`
                                         bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent
-                                        xxs:text-7xl
-                                        xs:text-7xl
-                                        sm:text-7xl
+                                        xxs:text-5xl
+                                        xs:text-5xl
+                                        sm:text-5xl
                                         md:text-7xl
                                         lg:text-9xl
                                         xl:text-9xl
@@ -39,9 +39,9 @@ export const Home = () => {
                         </motion.p>
                         <motion.p className={`
                                         bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent
-                                        xxs:text-7xl
-                                        xs:text-7xl
-                                        sm:text-7xl
+                                        xxs:text-5xl
+                                        xs:text-5xl
+                                        sm:text-5xl
                                         md:text-7xl
                                         lg:text-9xl
                                         xl:text-9xl
@@ -52,9 +52,9 @@ export const Home = () => {
                         </motion.p>
                         <motion.p className={`
                                         text-9xl bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent
-                                        xxs:text-7xl
-                                        xs:text-7xl
-                                        sm:text-7xl
+                                        xxs:text-5xl
+                                        xs:text-5xl
+                                        sm:text-5xl
                                         md:text-7xl
                                         lg:text-9xl
                                         xl:text-9xl
