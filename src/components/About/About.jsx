@@ -53,7 +53,7 @@ export const About = () => {
                     lg:w-1/2 lg:h-4/5
                     xl:w-1/2 xl:h-4/5
                     `}>
-                    <motion.img src="/PortfolioPic.jpg" alt="profile-pic" className='w-full h-screen rounded-lg'
+                    <motion.img src="/PortfolioPic.jpg" alt="profile-pic" className='w-full h-full rounded-lg'
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.7, delay: 0.5 }} />
