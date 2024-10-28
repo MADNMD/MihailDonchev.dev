@@ -64,7 +64,15 @@ export const Certificates = () => {
                 <div className='bg-gray-700 shadow-lg rounded-lg p-4 flex flex-col'>
                     <div>
                         <h5 className='text-xl font-bold text-center mt-2 mb-4 text-white'>MySQL</h5>
-                        <img src="/MySQL.jpeg" alt="Online supermarket" className='w-full h-max rounded-lg ' />
+                        <img src="/MySQL.jpeg" alt="Online supermarket" className={`
+                            w-full rounded-lg 
+                            xxs:h-full
+                            xs:h-full
+                            sm:h-full
+                            md:h-max
+                            lg:h-max
+                            xl:h-max
+                            `} />
                     </div>
                     <div className='flex-grow'>
                         <p className='text-white mb-4 mt-4'>{text('certificates.mysql')}</p>
@@ -91,7 +99,15 @@ export const Certificates = () => {
                 <div className='bg-gray-700 shadow-lg rounded-lg p-4 flex flex-col'>
                     <div>
                         <h5 className='text-xl font-bold text-center mt-2 mb-4 text-white'>ReactJS</h5>
-                        <img src="/ReactJS.jpeg" alt="Online supermarket" className='w-full h-max rounded-lg ' />
+                        <img src="/ReactJS.jpeg" alt="Online supermarket" className={`
+                            w-full rounded-lg 
+                            xxs:h-full
+                            xs:h-full
+                            sm:h-full
+                            md:h-max
+                            lg:h-max
+                            xl:h-max
+                            `} />
                     </div>
                     <div className='flex-grow'>
                         <p className='text-white mb-4 mt-4'>{text('certificates.react')}</p>
@@ -117,7 +133,15 @@ export const Certificates = () => {
                 <div className='bg-gray-700 shadow-lg rounded-lg p-4 flex flex-col'>
                     <div>
                         <h5 className='text-xl font-bold text-center mt-2 mb-4 text-white'>HTML & CSS</h5>
-                        <img src="/HTML-CSS.jpeg" alt="Online supermarket" className='w-full h-max rounded-lg ' />
+                        <img src="/HTML-CSS.jpeg" alt="Online supermarket" className={`
+                            w-full rounded-lg 
+                            xxs:h-full
+                            xs:h-full
+                            sm:h-full
+                            md:h-max
+                            lg:h-max
+                            xl:h-max
+                            `} />
                     </div>
                     <div className='flex-grow'>
                         <p className='text-white mb-4 mt-4'>{text('certificates.htmlCss')}</p>
@@ -144,7 +168,15 @@ export const Certificates = () => {
                 <div className='bg-gray-700 shadow-lg rounded-lg p-4 flex flex-col'>
                     <div>
                         <h5 className='text-xl font-bold text-center mt-2 mb-4 text-white'>Angular</h5>
-                        <img src="/Angular.jpeg" alt="Online supermarket" className='w-full h-max rounded-lg ' />
+                        <img src="/Angular.jpeg" alt="Online supermarket" className={`
+                            w-full rounded-lg 
+                            xxs:h-full
+                            xs:h-full
+                            sm:h-full
+                            md:h-max
+                            lg:h-max
+                            xl:h-max
+                            `} />
                     </div>
                     <div className='flex-grow'>
                         <p className='text-white mb-4 mt-4'>{text('certificates.angular')}</p>
@@ -171,7 +203,15 @@ export const Certificates = () => {
                 <div className='bg-gray-700 shadow-lg rounded-lg p-4 flex flex-col'>
                     <div>
                         <h5 className='text-xl font-bold text-center mt-2 mb-4 text-white'>JS Back-End</h5>
-                        <img src="/beck-end.jpeg" alt="Online supermarket" className='w-full h-max rounded-lg ' />
+                        <img src="/beck-end.jpeg" alt="Online supermarket" className={`
+                            w-full rounded-lg 
+                            xxs:h-full
+                            xs:h-full
+                            sm:h-full
+                            md:h-max
+                            lg:h-max
+                            xl:h-max
+                            `} />
                     </div>
                     <div className='flex-grow'>
                         <p className='text-white mb-4 mt-4'>{text('certificates.jsBackEnd')}</p>
@@ -198,7 +238,15 @@ export const Certificates = () => {
                 <div className='bg-gray-700 shadow-lg rounded-lg p-4 flex flex-col'>
                     <div>
                         <h5 className='text-xl font-bold text-center mt-2 mb-4 text-white'>JS Applications</h5>
-                        <img src="/applications.jpg" alt="Online supermarket" className='w-full h-max rounded-lg ' />
+                        <img src="/applications.jpg" alt="Online supermarket" className={`
+                            w-full rounded-lg 
+                            xxs:h-full
+                            xs:h-full
+                            sm:h-full
+                            md:h-max
+                            lg:h-max
+                            xl:h-max
+                            `} />
                     </div>
                     <div className='flex-grow'>
                         <p className='text-white mb-4 mt-4'>{text('certificates.jsApp')}</p>
@@ -225,7 +273,15 @@ export const Certificates = () => {
                 <div className='bg-gray-700 shadow-lg rounded-lg p-4 flex flex-col'>
                     <div>
                         <h5 className='text-xl font-bold text-center mt-2 mb-4 text-white'>JS Advanced</h5>
-                        <img src="/advanced.jpg" alt="Online supermarket" className='w-full h-max rounded-lg ' />
+                        <img src="/advanced.jpg" alt="Online supermarket" className={`
+                            w-full rounded-lg 
+                            xxs:h-full
+                            xs:h-full
+                            sm:h-full
+                            md:h-max
+                            lg:h-max
+                            xl:h-max
+                            `} />
                     </div>
                     <div className='flex-grow'>
                         <p className='text-white mb-4 mt-4'>{text('certificates.jsAdvanced')}</p>
@@ -252,7 +308,15 @@ export const Certificates = () => {
                 <div className='bg-gray-700 shadow-lg rounded-lg p-4 flex flex-col'>
                     <div>
                         <h5 className='text-xl font-bold text-center mt-2 mb-4 text-white'>Programing Fundamentals with JS</h5>
-                        <img src="/fundamentals.jpg" alt="Online supermarket" className='w-full h-max rounded-lg ' />
+                        <img src="/fundamentals.jpg" alt="Online supermarket" className={`
+                            w-full rounded-lg 
+                            xxs:h-full
+                            xs:h-full
+                            sm:h-full
+                            md:h-max
+                            lg:h-max
+                            xl:h-max
+                            `} />
                     </div>
                     <div className='flex-grow'>
                         <p className='text-white mb-4 mt-4'>{text('certificates.fundamentals')}</p>
@@ -279,7 +343,15 @@ export const Certificates = () => {
                 <div className='bg-gray-700 shadow-lg rounded-lg p-4 flex flex-col'>
                     <div>
                         <h5 className='text-xl font-bold text-center mt-2 mb-4 text-white'>Programing basics with JavaScript</h5>
-                        <img src="/basics.jpg" alt="Online supermarket" className='w-full h-max rounded-lg ' />
+                        <img src="/basics.jpg" alt="Online supermarket" className={`
+                            w-full rounded-lg 
+                            xxs:h-full
+                            xs:h-full
+                            sm:h-full
+                            md:h-max
+                            lg:h-max
+                            xl:h-max
+                            `} />
                     </div>
                     <div className='flex-grow'>
                         <p className='text-white mb-4 mt-4'>{text('certificates.basic')}</p>
