@@ -7,7 +7,7 @@ export const Home = () => {
     const { text } = useContext(AppContext);
 
     return (
-        <div className="flex flex-col font-mono p-6 ">
+        <div className="flex flex-col font-mono p-6 h-screen">
             <motion.p className="text-form-logo-text font-custom-2"
                 initial={{ opacity: 0, y: -20 }}
                 animate={{ opacity: 1, y: 0 }}
