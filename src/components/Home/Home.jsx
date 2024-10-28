@@ -24,17 +24,41 @@ export const Home = () => {
                     transition={{ duration: 0.5, delay: 0.4 }}>
                     <p className="text-form-logo-text font-custom-2">&lt;h1&gt;</p>
                     <div className="ml-8">
-                        <motion.p className='text-9xl bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent'
+                        <motion.p className={`
+                                        bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent
+                                        xxs:text-base
+                                        xs:text-base
+                                        sm:text-base
+                                        md:text-base
+                                        lg:text-9xl
+                                        xl:text-9xl
+                        `}
                             initial={{ opacity: 0, scale: 0.8 }}
                             animate={{ opacity: 1, scale: 1 }}
                             transition={{ duration: 0.6 }}>Hi,
                         </motion.p>
-                        <motion.p className='text-9xl bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent'
+                        <motion.p className={`
+                                        bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent
+                                        xxs:text-base
+                                        xs:text-base
+                                        sm:text-base
+                                        md:text-base
+                                        lg:text-9xl
+                                        xl:text-9xl
+                        `}
                             initial={{ opacity: 0, scale: 0.8 }}
                             animate={{ opacity: 1, scale: 1 }}
                             transition={{ duration: 0.6, delay: 0.2 }}>I'm Mihail,
                         </motion.p>
-                        <motion.p className='text-9xl bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent'
+                        <motion.p className={`
+                                        text-9xl bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent
+                                        xxs:text-base
+                                        xs:text-base
+                                        sm:text-base
+                                        md:text-base
+                                        lg:text-9xl
+                                        xl:text-9xl
+                        `}
                             initial={{ opacity: 0, scale: 0.8 }}
                             animate={{ opacity: 1, scale: 1 }}
                             transition={{ duration: 0.6, delay: 0.4 }}>web developer
