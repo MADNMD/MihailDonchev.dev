@@ -29,7 +29,15 @@ export const Certificates = () => {
                 <div className='bg-gray-700 shadow-lg rounded-lg p-4 flex flex-col'>
                     <div>
                         <h5 className='text-xl font-bold text-center mt-2 mb-4 text-white'>Intern</h5>
-                        <img src="/intern.png" alt="intern" className='w-full h-max rounded-lg ' />
+                        <img src="/intern.png" alt="intern" className={`
+                            w-full rounded-lg 
+                            xxs:h-full
+                            xs:h-full
+                            sm:h-full
+                            md:h-max
+                            lg:h-max
+                            xl:h-max
+                            `} />
                     </div>
                     <div className='flex-grow'>
                         <p className='text-white mb-4 mt-4'>{text('certificates.intern')}</p>
