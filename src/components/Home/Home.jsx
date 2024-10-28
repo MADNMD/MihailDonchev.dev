@@ -26,10 +26,10 @@ export const Home = () => {
                     <div className="ml-8">
                         <motion.p className={`
                                         bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent
-                                        xxs:text-base
-                                        xs:text-base
-                                        sm:text-base
-                                        md:text-base
+                                        xxs:text-7xl
+                                        xs:text-7xl
+                                        sm:text-7xl
+                                        md:text-7xl
                                         lg:text-9xl
                                         xl:text-9xl
                         `}
@@ -39,10 +39,10 @@ export const Home = () => {
                         </motion.p>
                         <motion.p className={`
                                         bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent
-                                        xxs:text-base
-                                        xs:text-base
-                                        sm:text-base
-                                        md:text-base
+                                        xxs:text-7xl
+                                        xs:text-7xl
+                                        sm:text-7xl
+                                        md:text-7xl
                                         lg:text-9xl
                                         xl:text-9xl
                         `}
@@ -52,10 +52,10 @@ export const Home = () => {
                         </motion.p>
                         <motion.p className={`
                                         text-9xl bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent
-                                        xxs:text-base
-                                        xs:text-base
-                                        sm:text-base
-                                        md:text-base
+                                        xxs:text-7xl
+                                        xs:text-7xl
+                                        sm:text-7xl
+                                        md:text-7xl
                                         lg:text-9xl
                                         xl:text-9xl
                         `}
@@ -70,7 +70,15 @@ export const Home = () => {
                         initial={{ opacity: 0, x: -50 }}
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.5, delay: 0.6 }}>
-                        <p className='text-2xl bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent'>
+                        <p className={`
+                                        text-2xl bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent
+                                        xxs:text-xl
+                                        xs:text-xl
+                                        sm:text-xl
+                                        md:text-xl
+                                        lg:text-2xl
+                                        xl:text-2xl
+                            `}>
                            {text('home.p')}
                         </p>
                     </motion.div>
