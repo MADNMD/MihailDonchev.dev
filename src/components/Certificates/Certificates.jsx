@@ -385,7 +385,7 @@ export const Certificates = () => {
                     <div className='flex-grow'>
                         <p className={`
                             text-white mb-4
-                            xxs:mt-16
+                            xxs:mt-24
                             xs:mt-16
                             sm:mt-16
                             md:mt-4
@@ -428,7 +428,7 @@ export const Certificates = () => {
                     <div className='flex-grow'>
                         <p className={`
                             text-white mb-4
-                            xxs:mt-16
+                            xxs:mt-24
                             xs:mt-16
                             sm:mt-16
                             md:mt-4
