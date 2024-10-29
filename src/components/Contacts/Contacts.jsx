@@ -60,7 +60,7 @@ export const Contacts = () => {
 
     return (
         <motion.div className={`
-            flex flex-col items-center justify-center overflow-hidden
+            flex flex-col items-center overflow-hidden
             xxs:h-screen xxs:w-screen
             xs:h-screen xs:w-screen
             sm:w-screen
