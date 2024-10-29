@@ -32,7 +32,7 @@ export const HamMenu = () => {
             </div>
 
             {isOpen && (
-                <div className="flex flex-col bg-navigation-bg fixed w-full h-4/5 top-0 left-0 z-40">
+                <div className="flex flex-col bg-navigation-bg fixed w-full h-5/6 top-0 left-0 z-40">
                     <div className="flex justify-end p-4">
                         <HamburgerMenu
                             isOpen={isOpen}
