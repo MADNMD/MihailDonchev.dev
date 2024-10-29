@@ -303,8 +303,8 @@ export const Projects = () => {
                             `}><span className='font-bold'>{text('projects.crossFit.description')}: </span>{text('projects.crossFit.descriptionContent')}</p>
                         <ul className='list-disc list-inside ml-4 mb-4 text-white'>
                             <li className='mb-2'><span className='font-bold'>{text('projects.crossFit.user')}: </span>{text('projects.crossFit.userContent')}</li>
-                            <li className='mb-2'><span className='font-bold'>{text('projects.crossFit.share')}: </span>{text('projects.crossFit.userContent')}</li>
-                            <li className='mb-2'><span className='font-bold'>{text('projects.crossFit.like')}: </span>{text('projects.crossFit.userContent')}</li>
+                            <li className='mb-2'><span className='font-bold'>{text('projects.crossFit.share')}: </span>{text('projects.crossFit.shareContent')}</li>
+                            <li className='mb-2'><span className='font-bold'>{text('projects.crossFit.like')}: </span>{text('projects.crossFit.likeContent')}</li>
                         </ul>
                         <p className='text-white mt-2 mb-4 font-bold'>{text('projects.usedTechnologies')}: </p>
                         <ul className='list-disc list-inside ml-4 mb-4 text-white'>
