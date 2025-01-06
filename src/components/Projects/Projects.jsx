@@ -28,6 +28,69 @@ export const Projects = () => {
 
                 <div className='bg-gray-700 shadow-lg rounded-lg p-4 flex flex-col'>
                     <div>
+                        <h5 className='text-xl font-bold text-center mt-2 mb-4 text-white'>Dinamic Comfort</h5>
+                        <img src="/dinamic-comfort.png" alt="dinamic-comfort" className='w-full h-4/5 rounded-lg ' />
+                    </div>
+                    <div className='flex-grow'>
+                        <p className={`
+                            text-white mt-2 mb-4
+                            xxs:mt-8
+                            xs:mt-4
+                            sm:mt-4
+                            md:mt-2
+                            lg:mt-4
+                            xl:mt-2
+                            `}><span className='font-bold'>{text('projects.dinamic-comfort.description')}: </span>{text('projects.dinamic-comfort.descriptionContent')}</p>
+                        <ul className='list-disc list-inside ml-4 mb-4 text-white'>
+                            <li className='mb-2'><span className='font-bold'>{text('projects.dinamic-comfort.medical')}: </span>{text('projects.dinamic-comfort.medicalContent')}</li>
+                            <li className='mb-2'><span className='font-bold'>{text('projects.dinamic-comfort.sport')}: </span>{text('projects.dinamic-comfort.sportContent')}</li>
+                            <li className='mb-2'><span className='font-bold'>{text('projects.dinamic-comfort.kids')}: </span>{text('projects.dinamic-comfort.kidsContent')}</li>
+                            <li className='mb-2'><span className='font-bold'>{text('projects.dinamic-comfort.add')}: </span>{text('projects.dinamic-comfort.addContent')}</li>
+                        </ul>
+                        <p className='text-white mt-2 mb-4 font-bold'>{text('projects.usedTechnologies')}: </p>
+                        <ul className='list-disc list-inside ml-4 mb-4 text-white'>
+                            <li className='mb-2'><span className='font-bold'>Frontend: </span>ReactJS, Tailwind</li>
+                            <li className='mb-2'><span className='font-bold'>Libraries: </span>i18next, Framer-motion, Material UI</li>
+                        </ul>
+                    </div>
+                    <div className={`
+                                flex justify-evenly gap-20
+                                xxs:gap-4
+                                xs:gap-4
+                                sm:gap-4
+                        `}>
+                        <Link to={'https://www.dinamic-comfort.com/'} target='_blank' className={`
+                        inline-block text-nowrap text-white text-base bg-body-bg m-2 py-2 rounded button-font
+                        transition-colors 
+                        duration-300 
+                        ease-in-out
+                        hover:bg-hover
+                        xxs:px-4
+                        xs:px-4
+                        sm:px-10
+                        md:px-10
+                        lg:px-10
+                        xl:px-10
+                        `}>{text('projects.btn.visit')}</Link>
+                        <Link to={''} target='_blank' className={`
+                        cursor-not-allowed inline-block text-nowrap text-white text-base bg-body-bg m-2 py-2 rounded button-font
+                        transition-colors 
+                        duration-300 
+                        ease-in-out
+                        hover:bg-hover
+                        xxs:px-4
+                        xs:px-4
+                        sm:px-10
+                        md:px-10
+                        lg:px-10
+                        xl:px-10
+                        `}
+                            onClick={e => e.preventDefault()}>{text('projects.btn.code')}</Link>
+                    </div>
+                </div>
+
+                <div className='bg-gray-700 shadow-lg rounded-lg p-4 flex flex-col'>
+                    <div>
                         <h5 className='text-xl font-bold text-center mt-2 mb-4 text-white'>VANIMI online supermarket</h5>
                         <img src="/vanimi-supermaket.png" alt="Online supermarket" className='w-full h-4/5 rounded-lg ' />
                     </div>
