@@ -25,6 +25,18 @@
     },
     "projects": {
         "header": "My projects",
+        "dinamic-comfort":{
+            "description": "Description",
+            "descriptionContent": "The site offers high-quality orthopedic insoles and solutions to improve the health and comfort of the feet. The products are created with innovative technologies and materials that provide individual support and comfort.",
+            "medical": "Medical range",
+            "medicalContent": "A wide range of clinically proven medical orthotic solutions for a variety of foot conditions including flat feet, plantar fasciitis and heel pain.",
+            "sport": "Sports range",
+            "sportContent": "Orthopedic shoes that provide personalized comfort and support to improve athletic performance. They support biomechanics and reduce the risk of injuries.",
+            "kids": "Children's range",
+            "kidsContent": "Specially developed for young, growing feet that need extra comfort and support.",
+            "add": "Additional modifiers",
+            "addContent": "Components that attach to orthopedic insoles to customize their function according to individual needs."
+        },
         "vanimi": {
             "description": "Description",
             "descriptionContent": "VANIMI online supermarket is a website that offers a variety of food and household goods that you can order and get delivered directly to your door.",
